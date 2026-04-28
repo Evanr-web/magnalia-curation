@@ -13,8 +13,9 @@ A content review tool for the Gregory the Great Institute's Magnalia Letter.
 1. Open the link you received
 2. Browse the cards — click "Read Article" to open items in a new tab
 3. Click the **+** button on items you want in the Letter
-4. When done, click **"Send Selections to Victor"**
-5. That's it!
+4. Use **"+ Add Your Own"** to add articles, books, videos, or ideas not in the digest
+5. When done, click **"Send Selections for Magnalia Letter"**
+6. That's it!
 
 ## Technical Setup
 
@@ -30,7 +31,7 @@ Weekly digest files go in `data/YYYY-MM-DD.json`. See `data/sample-2026-05-04.js
 ### Submit Endpoint
 The submit button POSTs to `./api/submit`. This should be a Cloudflare Function (or similar) that:
 1. Commits selections to `selections/YYYY-MM-DD.json` in this repo
-2. Sends a formatted email to Victor at vcarpay@gregorythegreat.ca
+2. Sends a formatted email to the Magnalia Letter team at letter@gregorythegreat.ca
 
 If the endpoint isn't configured, the UI falls back to a mailto: link.
 

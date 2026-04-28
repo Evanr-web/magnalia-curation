@@ -116,6 +116,134 @@
     .btn-submit:hover { background-color: #6b2124; }
     .btn-submit:disabled { background-color: #ccc; cursor: not-allowed; }
 
+    .btn-add {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--navy);
+      background-color: white;
+      border: 1px solid var(--light-border);
+      padding: 8px 20px;
+      border-radius: 3px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .btn-add:hover { border-color: var(--gold); color: var(--gold); }
+
+    /* Add Your Own panel */
+    .add-panel {
+      display: none;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    .add-panel.active { display: block; }
+
+    .add-panel__inner {
+      background-color: white;
+      border: 2px solid var(--gold);
+      border-radius: 4px;
+      padding: 28px;
+      margin-top: 16px;
+    }
+
+    .add-panel__title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 16px;
+    }
+
+    .add-panel__row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .add-panel__row--full {
+      grid-template-columns: 1fr;
+    }
+
+    .add-panel label {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--gray);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .add-panel input,
+    .add-panel select,
+    .add-panel textarea {
+      width: 100%;
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 0.95rem;
+      padding: 10px 14px;
+      border: 1px solid var(--light-border);
+      border-radius: 3px;
+      color: var(--ink);
+      background-color: #fafaf8;
+      transition: border-color 0.2s;
+    }
+
+    .add-panel input:focus,
+    .add-panel select:focus,
+    .add-panel textarea:focus {
+      outline: none;
+      border-color: var(--gold);
+    }
+
+    .add-panel textarea { resize: vertical; min-height: 80px; }
+
+    .add-panel select {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 0.85rem;
+    }
+
+    .add-panel__actions {
+      display: flex;
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .btn-add-item {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: white;
+      background-color: var(--navy);
+      border: none;
+      padding: 10px 24px;
+      border-radius: 3px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+
+    .btn-add-item:hover { background-color: #1a4a75; }
+
+    .btn-cancel {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--gray);
+      background: none;
+      border: none;
+      padding: 10px 16px;
+      cursor: pointer;
+    }
+
+    .btn-cancel:hover { color: var(--navy); }
+
+    @media (max-width: 640px) {
+      .add-panel__row { grid-template-columns: 1fr; }
+    }
+
     /* Filters */
     .filters {
       max-width: 900px;
@@ -303,6 +431,7 @@
     }
 
     .tag--canadian { background-color: #e8f0e8; color: #2d6a4f; }
+    .tag--custom { background-color: #fef3e2; color: #b89a47; font-weight: 600; }
 
     /* Category icons */
     .cat-icon { margin-right: 4px; }
@@ -414,9 +543,12 @@
       <div class="status-bar__info">
         <span id="item-count">0</span> items &ensp;·&ensp; <strong id="selected-count">0 selected</strong>
       </div>
-      <button class="btn-submit" id="btn-submit" disabled onclick="submitSelections()">
-        Send Selections to Victor →
-      </button>
+      <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+        <button class="btn-add" onclick="toggleAddPanel()">+ Add Your Own</button>
+        <button class="btn-submit" id="btn-submit" disabled onclick="submitSelections()">
+          Send Selections for Magnalia Letter →
+        </button>
+      </div>
     </div>
   </div>
 
@@ -428,6 +560,49 @@
     <button class="filter-btn" data-filter="watch">🎬 Watch</button>
     <button class="filter-btn" data-filter="listen">🎧 Listen</button>
     <button class="filter-btn" data-filter="beauty">🎨 Beauty</button>
+  </div>
+
+  <!-- Add Your Own panel -->
+  <div class="add-panel" id="add-panel">
+    <div class="add-panel__inner">
+      <h3 class="add-panel__title">Add Your Own Item</h3>
+      <div class="add-panel__row">
+        <div>
+          <label for="add-title">Title</label>
+          <input type="text" id="add-title" placeholder="Article or resource title">
+        </div>
+        <div>
+          <label for="add-source">Source</label>
+          <input type="text" id="add-source" placeholder="Publication, YouTube channel, etc.">
+        </div>
+      </div>
+      <div class="add-panel__row">
+        <div>
+          <label for="add-url">Link (URL)</label>
+          <input type="url" id="add-url" placeholder="https://...">
+        </div>
+        <div>
+          <label for="add-category">Category</label>
+          <select id="add-category">
+            <option value="read">📖 Read</option>
+            <option value="book">📚 Book</option>
+            <option value="watch">🎬 Watch</option>
+            <option value="listen">🎧 Listen</option>
+            <option value="beauty">🎨 Beauty</option>
+          </select>
+        </div>
+      </div>
+      <div class="add-panel__row add-panel__row--full">
+        <div>
+          <label for="add-notes">Notes (why include this?)</label>
+          <textarea id="add-notes" placeholder="Brief notes on why this is worth including in the Magnalia Letter..."></textarea>
+        </div>
+      </div>
+      <div class="add-panel__actions">
+        <button class="btn-add-item" onclick="addCustomItem()">Add to Selections</button>
+        <button class="btn-cancel" onclick="toggleAddPanel()">Cancel</button>
+      </div>
+    </div>
   </div>
 
   <!-- Cards -->
@@ -443,7 +618,7 @@
   <div class="overlay" id="overlay">
     <div class="overlay__panel" id="overlay-panel">
       <h2 id="overlay-title">Sending...</h2>
-      <p id="overlay-message">Submitting your selections to Victor.</p>
+      <p id="overlay-message">Submitting your selections for the Magnalia Letter.</p>
       <button class="btn-close" id="overlay-close" onclick="closeOverlay()" style="display: none;">Close</button>
     </div>
   </div>
@@ -473,8 +648,9 @@
         const res = await fetch('./data/sample-2026-05-04.json');
         const data = await res.json();
         items = data.items;
-        document.getElementById('week-label').textContent = `Week of ${formatDate(data.week)} · ${data.itemCount} items`;
-        document.getElementById('item-count').textContent = data.itemCount;
+        loadCustomItems();
+        document.getElementById('week-label').textContent = `Week of ${formatDate(data.week)} · ${items.length} items`;
+        document.getElementById('item-count').textContent = items.length;
         renderCards();
         updateSelectedCount();
       } catch (e) {
@@ -536,7 +712,7 @@
                 <a href="${item.url}" target="_blank" rel="noopener" class="btn-read">Read Article ↗</a>
                 <div class="card__score">${renderStars(item.score)}</div>
                 <div class="card__tags">
-                  ${item.tags.map(t => `<span class="tag${t === 'canadian' ? ' tag--canadian' : ''}">${t}</span>`).join('')}
+                  ${item.tags.map(t => `<span class="tag${t === 'canadian' ? ' tag--canadian' : ''}${t === 'added-by-reviewer' ? ' tag--custom' : ''}">${t === 'added-by-reviewer' ? '✎ Added by reviewer' : t}</span>`).join('')}
                 </div>
               </div>
             </div>
@@ -574,6 +750,69 @@
     }
 
     // =============================================
+    // ADD YOUR OWN
+    // =============================================
+    const CUSTOM_STORAGE_KEY = 'magnalia-custom-items';
+    let customItems = JSON.parse(localStorage.getItem(CUSTOM_STORAGE_KEY) || '[]');
+
+    // Load custom items into the main items array on init
+    function loadCustomItems() {
+      customItems.forEach(ci => {
+        if (!items.find(i => i.id === ci.id)) {
+          items.push(ci);
+        }
+      });
+    }
+
+    function toggleAddPanel() {
+      document.getElementById('add-panel').classList.toggle('active');
+    }
+
+    function addCustomItem() {
+      const title = document.getElementById('add-title').value.trim();
+      const source = document.getElementById('add-source').value.trim();
+      const url = document.getElementById('add-url').value.trim();
+      const category = document.getElementById('add-category').value;
+      const notes = document.getElementById('add-notes').value.trim();
+
+      if (!title) { alert('Please enter a title.'); return; }
+
+      const id = 'custom-' + Date.now();
+      const item = {
+        id,
+        category,
+        title,
+        source: source || 'Added manually',
+        date: new Date().toISOString().split('T')[0],
+        url: url || '',
+        summary: notes || '',
+        score: 10,
+        tags: ['added-by-reviewer'],
+        ggiConnection: '',
+        isCustom: true
+      };
+
+      items.push(item);
+      customItems.push(item);
+      localStorage.setItem(CUSTOM_STORAGE_KEY, JSON.stringify(customItems));
+
+      // Auto-select it
+      selected.add(id);
+      localStorage.setItem(STORAGE_KEY, JSON.stringify([...selected]));
+
+      // Clear form
+      document.getElementById('add-title').value = '';
+      document.getElementById('add-source').value = '';
+      document.getElementById('add-url').value = '';
+      document.getElementById('add-notes').value = '';
+      document.getElementById('add-category').value = 'read';
+
+      toggleAddPanel();
+      renderCards();
+      updateSelectedCount();
+    }
+
+    // =============================================
     // FILTERS
     // =============================================
     document.getElementById('filters').addEventListener('click', (e) => {
@@ -595,7 +834,7 @@
 
       overlay.classList.add('active');
       title.textContent = 'Sending...';
-      message.textContent = 'Submitting your selections to Victor.';
+      message.textContent = 'Submitting your selections for the Magnalia Letter.';
       message.className = '';
       closeBtn.style.display = 'none';
 
@@ -622,7 +861,7 @@
 
         if (res.ok) {
           title.textContent = '✓ Selections Sent';
-          message.textContent = `${selectedItems.length} items sent to Victor. He'll receive an email with your selections formatted and ready for the Magnalia Letter.`;
+          message.textContent = `${selectedItems.length} items submitted for the Magnalia Letter. The team will receive your selections formatted and ready to use.`;
           message.className = 'success';
         } else {
           throw new Error(`Server returned ${res.status}`);
@@ -632,10 +871,10 @@
         message.innerHTML = `
           <p class="error" style="margin-bottom: 16px;">The submit endpoint isn't configured yet. No worries — here's your selections:</p>
           <textarea style="width: 100%; height: 200px; font-family: monospace; font-size: 12px; padding: 12px; border: 1px solid #ddd; border-radius: 3px; resize: vertical;">${formatSelectionsText(selectedItems)}</textarea>
-          <p style="margin-top: 12px; font-size: 0.85rem;">Copy the text above and email it to Victor, or use the button below.</p>
-          <a href="mailto:vcarpay@gregorythegreat.ca?subject=${encodeURIComponent('Magnalia Letter Selections — ' + payload.week)}&body=${encodeURIComponent(formatSelectionsText(selectedItems))}" 
+          <p style="margin-top: 12px; font-size: 0.85rem;">Copy the text above and email it to the team, or use the button below.</p>
+          <a href="mailto:letter@gregorythegreat.ca?subject=${encodeURIComponent('Magnalia Letter Selections — ' + payload.week)}&body=${encodeURIComponent(formatSelectionsText(selectedItems))}" 
              style="display: inline-block; margin-top: 12px; padding: 10px 24px; background-color: #0e3352; color: white; text-decoration: none; border-radius: 3px; font-weight: 700; font-size: 0.9rem;">
-            Email to Victor →
+            Email Selections →
           </a>`;
       }
 
