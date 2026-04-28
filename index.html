@@ -652,15 +652,24 @@
       // In production, this will be generated weekly
       // For now, load the sample
       try {
-        const res = await fetch('./data/sample-2026-05-04.json');
+        // Try latest.json first, fall back to sample
+        let res = await fetch('./data/latest.json');
+        if (!res.ok) {
+          res = await fetch('./data/sample-2026-05-04.json');
+        }
         const data = await res.json();
         items = data.items;
         loadCustomItems();
         document.getElementById('week-label').textContent = `Week of ${formatDate(data.week)} · ${items.length} items`;
         document.getElementById('item-count').textContent = items.length;
-        // Show sample banner if data file is a sample
+        // Show sample banner if data file is the sample
         if (data.week === '2026-05-04') {
           document.getElementById('sample-banner').style.display = 'block';
+        }
+        // Show crawl stats if available
+        if (data.crawlStats) {
+          document.getElementById('week-label').textContent += 
+            ` (from ${data.crawlStats.sourcesChecked} sources)`;
         }
         renderCards();
         updateSelectedCount();

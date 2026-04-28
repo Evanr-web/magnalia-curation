@@ -1,0 +1,182 @@
+{
+  "feeds": [
+    {
+      "name": "First Things",
+      "url": "https://www.firstthings.com/rss",
+      "type": "rss",
+      "category": "read",
+      "trust": "high",
+      "tags": ["catholic-intellectual", "culture", "theology"]
+    },
+    {
+      "name": "Church Life Journal (Notre Dame)",
+      "url": "https://churchlifejournal.nd.edu/feed/",
+      "type": "rss",
+      "category": "read",
+      "trust": "high",
+      "tags": ["catholic-intellectual", "theology", "philosophy"]
+    },
+    {
+      "name": "The Pillar",
+      "url": "https://www.pillarcatholic.com/feed",
+      "type": "rss",
+      "category": "read",
+      "trust": "high",
+      "tags": ["catholic-news", "analysis"]
+    },
+    {
+      "name": "Catholic World Report",
+      "url": "https://www.catholicworldreport.com/feed/",
+      "type": "rss",
+      "category": "read",
+      "trust": "high",
+      "tags": ["catholic-news", "analysis", "culture"]
+    },
+    {
+      "name": "Crisis Magazine",
+      "url": "https://www.crisismagazine.com/feed/",
+      "type": "rss",
+      "category": "read",
+      "trust": "high",
+      "tags": ["catholic-culture", "opinion", "education"]
+    },
+    {
+      "name": "New Liturgical Movement",
+      "url": "https://www.newliturgicalmovement.org/feeds/posts/default?alt=rss",
+      "type": "rss",
+      "category": "read",
+      "trust": "high",
+      "tags": ["liturgy", "beauty", "sacred-art"]
+    },
+    {
+      "name": "Convivium (Cardus)",
+      "url": "https://www.convivium.ca/feed/",
+      "type": "rss",
+      "category": "read",
+      "trust": "high",
+      "tags": ["canadian", "faith-public-life", "cardus"]
+    },
+    {
+      "name": "Comment Magazine (Cardus)",
+      "url": "https://comment.org/feed",
+      "type": "rss",
+      "category": "read",
+      "trust": "high",
+      "tags": ["canadian", "public-theology", "cardus"]
+    },
+    {
+      "name": "Word on Fire Blog",
+      "url": "https://www.wordonfire.org/articles/feed/",
+      "type": "rss",
+      "category": "read",
+      "trust": "high",
+      "tags": ["catholic-intellectual", "evangelization", "barron"]
+    },
+    {
+      "name": "Public Discourse (Witherspoon)",
+      "url": "https://www.thepublicdiscourse.com/feed/",
+      "type": "rss",
+      "category": "read",
+      "trust": "high",
+      "tags": ["natural-law", "ethics", "public-policy"]
+    },
+    {
+      "name": "Front Porch Republic",
+      "url": "https://www.frontporchrepublic.com/feed/",
+      "type": "rss",
+      "category": "read",
+      "trust": "medium",
+      "tags": ["localism", "community", "culture"]
+    },
+    {
+      "name": "The European Conservative",
+      "url": "https://europeanconservative.com/feed/",
+      "type": "rss",
+      "category": "read",
+      "trust": "medium",
+      "tags": ["conservative", "european", "culture"]
+    },
+    {
+      "name": "Bishop Robert Barron",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCcMjLgeWNwqL2LBGS-iPb1A",
+      "type": "youtube-atom",
+      "category": "watch",
+      "trust": "high",
+      "tags": ["catholic-intellectual", "evangelization", "barron"]
+    },
+    {
+      "name": "Matt Fradd (Pints with Aquinas)",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCRMlEcam-zu-maOA718QsFQ",
+      "type": "youtube-atom",
+      "category": "watch",
+      "trust": "high",
+      "tags": ["catholic", "philosophy", "interviews"]
+    },
+    {
+      "name": "The Thomistic Institute",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCB3UcUbOFO4nthmNALpbGsw",
+      "type": "youtube-atom",
+      "category": "watch",
+      "trust": "high",
+      "tags": ["thomism", "philosophy", "theology"]
+    },
+    {
+      "name": "Classical Theist",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6Ys6pwz2K0QkHPUl9uIvWQ",
+      "type": "youtube-atom",
+      "category": "watch",
+      "trust": "medium",
+      "tags": ["philosophy", "theology", "classical"]
+    }
+  ],
+  "_disabled": [
+    {
+      "name": "National Catholic Register",
+      "url": "https://www.ncregister.com/feed",
+      "reason": "RSS feed returns malformed XML as of 2026-04",
+      "type": "rss", "category": "read", "trust": "high"
+    },
+    {
+      "name": "Plough Quarterly",
+      "url": "https://www.plough.com/en/rss.xml",
+      "reason": "RSS feed returns malformed XML as of 2026-04",
+      "type": "rss", "category": "read", "trust": "high"
+    },
+    {
+      "name": "The Catholic Register (Canada)",
+      "url": "https://www.catholicregister.org/feed",
+      "reason": "Returns HTML instead of RSS as of 2026-04",
+      "type": "rss", "category": "read", "trust": "high"
+    },
+    {
+      "name": "Salt + Light Media",
+      "url": "https://slmedia.org/feed",
+      "reason": "Feed returns malformed XML as of 2026-04",
+      "type": "rss", "category": "read", "trust": "high"
+    },
+    {
+      "name": "Grandin Media (Edmonton)",
+      "url": "https://grandinmedia.ca/feed/",
+      "reason": "SSL certificate verification failed as of 2026-04",
+      "type": "rss", "category": "read", "trust": "high"
+    },
+    {
+      "name": "B.C. Catholic",
+      "url": "https://bccatholic.ca/feed",
+      "reason": "Feed returns malformed XML as of 2026-04",
+      "type": "rss", "category": "read", "trust": "high"
+    },
+    {
+      "name": "The Lamp",
+      "url": "https://thelampmagazine.com/feed",
+      "reason": "Feed returns malformed XML as of 2026-04",
+      "type": "rss", "category": "read", "trust": "high"
+    },
+    {
+      "name": "Brian Holdsworth",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCkV76QLnMFljbbAS3W13C7g",
+      "reason": "Channel ID returns 404 — may have changed. Re-check periodically.",
+      "type": "youtube-atom", "category": "watch", "trust": "high"
+    }
+  ]
+}

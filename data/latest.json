@@ -1,0 +1,396 @@
+{
+  "week": "2026-05-04",
+  "generated": "2026-04-28T15:31:28.643962+00:00",
+  "itemCount": 20,
+  "crawlStats": {
+    "sourcesChecked": 16,
+    "candidatesFound": 122,
+    "afterDedup": 122,
+    "rejectedLinks": 7,
+    "rejectedSecurity": 0,
+    "belowScoreThreshold": 39,
+    "finalItems": 20
+  },
+  "items": [
+    {
+      "id": "church-life-journal--poetry-as-gift-eucharistic-miracle-294000",
+      "category": "read",
+      "title": "Poetry as Gift: Eucharistic Miracle",
+      "source": "Church Life Journal (Notre Dame)",
+      "date": "2026-04-27",
+      "url": "https://churchlifejournal.nd.edu/articles/poetry-as-gift/",
+      "summary": "Explores the relationship between poetry and Eucharistic spirituality, examining how literary art can serve as a vehicle for theological reflection and wonder.",
+      "score": 9,
+      "tags": [
+        "catholic-intellectual",
+        "theology",
+        "philosophy"
+      ],
+      "ggiConnection": "Strong alignment with GGI's emphasis on beauty, liturgy, and the integration of faith and culture through the arts.",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-04-28T15:31:28.643736+00:00"
+    },
+    {
+      "id": "first-things-ratzinger-in-the-whirlwind-0b7803",
+      "category": "read",
+      "title": "Ratzinger in the Whirlwind",
+      "source": "First Things",
+      "date": "2026-04-22",
+      "url": "https://firstthings.com/ratzinger-in-the-whirlwind/",
+      "summary": "Examination of Benedict XVI's theological and intellectual contributions during turbulent times in the Church, exploring his role as a leading Catholic intellectual.",
+      "score": 8,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "Strong connection to Catholic intellectual tradition and theological formation that GGI promotes.",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-04-28T15:31:28.643793+00:00"
+    },
+    {
+      "id": "church-life-journal--declinism-is-easy-art-beauty-and-the-need-to-make-it-new-810301",
+      "category": "read",
+      "title": "Declinism Is Easy: Art, Beauty, and the Need to Make it New",
+      "source": "Church Life Journal (Notre Dame)",
+      "date": "2026-04-28",
+      "url": "https://churchlifejournal.nd.edu/articles/the-church-of-whats-happenin-now-art-beauty-and-the-need-to-make-it-new/",
+      "summary": "Argues against cultural pessimism while advocating for authentic artistic renewal, emphasizing the need for creative engagement rather than mere critique of decline.",
+      "score": 8,
+      "tags": [
+        "catholic-intellectual",
+        "theology",
+        "philosophy"
+      ],
+      "ggiConnection": "Directly connects to GGI themes of beauty, cultural renewal, and the importance of creative engagement in formation.",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-04-28T15:31:28.643800+00:00"
+    },
+    {
+      "id": "new-liturgical-movem-forming-families-to-sing-with-angels-621eab",
+      "category": "read",
+      "title": "Forming Families to Sing With Angels",
+      "source": "New Liturgical Movement",
+      "date": "2026-04-28",
+      "url": "https://www.newliturgicalmovement.org/2026/04/forming-families-to-sing-with-angels.html",
+      "summary": "Explores formation of families in liturgical singing and sacred music traditions, emphasizing the role of domestic church in transmitting beauty and worship.",
+      "score": 8,
+      "tags": [
+        "liturgy",
+        "beauty",
+        "sacred-art"
+      ],
+      "ggiConnection": "Strongly aligns with GGI themes of liturgy, beauty, family formation, and cultural transmission.",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-04-28T15:31:28.643807+00:00"
+    },
+    {
+      "id": "new-liturgical-movem-against-concelebration-the-remarkable-intervention-of-archb-86a207",
+      "category": "read",
+      "title": "Against Concelebration: The Remarkable Intervention of Archbishop Paul-Pierre Philippe OP at Vatican II",
+      "source": "New Liturgical Movement",
+      "date": "2026-04-22",
+      "url": "https://www.newliturgicalmovement.org/2026/04/against-concelebration-remarkable.html",
+      "summary": "Historical analysis of Archbishop Philippe's intervention against concelebration during Vatican II, offering substantive liturgical theology and historical context.",
+      "score": 8,
+      "tags": [
+        "liturgy",
+        "beauty",
+        "sacred-art"
+      ],
+      "ggiConnection": "Directly relevant to GGI's liturgical formation and Catholic intellectual tradition emphasis",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-04-28T15:31:28.643811+00:00"
+    },
+    {
+      "id": "front-porch-republic-the-need-for-non-ironic-limits-a-review-of-the-philosophy-o-0f37ca",
+      "category": "read",
+      "title": "The Need for Non-Ironic Limits: A Review of The Philosophy of Philip Rieff",
+      "source": "Front Porch Republic",
+      "date": "2026-04-22",
+      "url": "https://www.frontporchrepublic.com/2026/04/the-need-for-non-ironic-limits-a-review-of-the-philosophy-of-philip-rieff/",
+      "summary": "Scholarly review of Philip Rieff's philosophy examining cultural limits and therapeutic culture, offering deep intellectual analysis of contemporary cultural challenges. Strong mission alignment on faith, reason, and cultural critique.",
+      "score": 8,
+      "tags": [
+        "localism",
+        "community",
+        "culture"
+      ],
+      "ggiConnection": "Strong alignment with GGI's cultural renewal mission and intellectual tradition",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-04-28T15:31:28.643817+00:00"
+    },
+    {
+      "id": "matt-fradd-(pints-wi-how-to-truly-know-something--dr-trent-dougherty-94391b",
+      "category": "watch",
+      "title": "How To Truly KNOW Something | Dr. Trent Dougherty",
+      "source": "Matt Fradd (Pints with Aquinas)",
+      "date": "2026-04-23",
+      "url": "https://www.youtube.com/watch?v=m2SvdFDT2ng",
+      "summary": "Philosopher Dr. Trent Dougherty discusses epistemology and the nature of knowledge in Catholic philosophical framework - deep intellectual content aligned with faith and reason.",
+      "score": 8,
+      "tags": [
+        "catholic",
+        "philosophy",
+        "interviews"
+      ],
+      "ggiConnection": "Exemplifies GGI's commitment to Catholic intellectual tradition and philosophical inquiry",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-04-28T15:31:28.643824+00:00"
+    },
+    {
+      "id": "matt-fradd-(pints-wi-why-modern-storytelling-is-so-bad--dr-martin-shaw-b54ac3",
+      "category": "watch",
+      "title": "Why Modern Storytelling Is SO BAD | Dr. Martin Shaw",
+      "source": "Matt Fradd (Pints with Aquinas)",
+      "date": "2026-04-21",
+      "url": "https://www.youtube.com/watch?v=Qy9FeBbx2_I",
+      "summary": "Dr. Martin Shaw critiques modern storytelling's decline and explores narrative's role in cultural formation - substantial analysis connecting literature, culture, and meaning.",
+      "score": 8,
+      "tags": [
+        "catholic",
+        "philosophy",
+        "interviews"
+      ],
+      "ggiConnection": "Directly aligns with GGI's focus on cultural renewal, Great Books tradition, and the power of story in formation",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-04-28T15:31:28.643828+00:00"
+    },
+    {
+      "id": "the-thomistic-instit-whats-the-purpose-of-life--contemplata-bonus-episode-73a539",
+      "category": "watch",
+      "title": "What's the Purpose of Life? | Contemplata Bonus Episode",
+      "source": "The Thomistic Institute",
+      "date": "2026-04-26",
+      "url": "https://www.youtube.com/shorts/Y8jjV8q6HV0",
+      "summary": "Fundamental philosophical question addressed from Thomistic perspective. Engages core existential questions through Catholic intellectual framework.",
+      "score": 8,
+      "tags": [
+        "thomism",
+        "philosophy",
+        "theology"
+      ],
+      "ggiConnection": "Directly aligns with GGI's Great Books approach and fundamental philosophical questions",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-04-28T15:31:28.643832+00:00"
+    },
+    {
+      "id": "first-things-how-science-killed-materialism-f1a28d",
+      "category": "read",
+      "title": "How Science Killed Materialism",
+      "source": "First Things",
+      "date": "2026-04-28",
+      "url": "https://firstthings.com/how-science-killed-materialism/",
+      "summary": "Explores how modern scientific discoveries challenge materialist worldview, offering philosophical analysis of the intersection between faith and reason in contemporary scientific discourse.",
+      "score": 7,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "Aligns with GGI's emphasis on faith-reason integration and Catholic intellectual tradition",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-04-28T15:31:28.643838+00:00"
+    },
+    {
+      "id": "first-things-god-and-man-at-mit-aaed20",
+      "category": "read",
+      "title": "God and Man at MIT",
+      "source": "First Things",
+      "date": "2026-04-27",
+      "url": "https://firstthings.com/god-and-man-at-mit/",
+      "summary": "Examination of faith life and intellectual challenges at MIT, exploring the relationship between Catholic belief and academic excellence in secular institutions.",
+      "score": 7,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "Strong connection to GGI's mission of integrating faith and reason in higher education",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-04-28T15:31:28.643845+00:00"
+    },
+    {
+      "id": "first-things-the-word-became-flesh-and-picked-up-a-hammer-7e2137",
+      "category": "read",
+      "title": "The Word Became Flesh and Picked Up a Hammer",
+      "source": "First Things",
+      "date": "2026-04-23",
+      "url": "https://firstthings.com/the-word-became-flesh-and-picked-up-a-hammer/",
+      "summary": "Theological reflection on the dignity of work and manual labor through Incarnational lens, exploring Catholic understanding of vocation and craftsmanship.",
+      "score": 7,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "Strong connection to GGI's emphasis on beauty, craftsmanship, and incarnational spirituality",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-04-28T15:31:28.643849+00:00"
+    },
+    {
+      "id": "first-things-the-westdistorted-e0f282",
+      "category": "read",
+      "title": "The West Distorted",
+      "source": "First Things",
+      "date": "2026-04-23",
+      "url": "https://firstthings.com/the-west-distorted/",
+      "summary": "Analysis of how Western civilization has been misrepresented or misunderstood, likely examining cultural and intellectual distortions in contemporary discourse.",
+      "score": 7,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "Directly aligns with GGI's mission of cultural renewal and understanding the Western intellectual tradition.",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-04-28T15:31:28.643855+00:00"
+    },
+    {
+      "id": "first-things-ecclesiacide-then-and-now-b26e9b",
+      "category": "read",
+      "title": "“Ecclesiacide,” Then and Now",
+      "source": "First Things",
+      "date": "2026-04-22",
+      "url": "https://firstthings.com/ecclesiacide-then-and-now/",
+      "summary": "Historical and contemporary analysis of attacks on the Church's institutional integrity, drawing parallels between past and present challenges to ecclesial life.",
+      "score": 7,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "Relates to GGI's focus on Church renewal and understanding Catholic institutional life.",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-04-28T15:31:28.643860+00:00"
+    },
+    {
+      "id": "church-life-journal--thinking-christianly-about-technology-again-technology-and--2149bc",
+      "category": "read",
+      "title": "Thinking Christianly About Technology Again: Technology and the Fragmentation of Society",
+      "source": "Church Life Journal (Notre Dame)",
+      "date": "2026-04-23",
+      "url": "https://churchlifejournal.nd.edu/articles/thinking-christianly-about-technology-part-2-technology-and-the-fragmentation-of-society/",
+      "summary": "Christian philosophical analysis of how technology contributes to social fragmentation, offering theological perspectives on contemporary digital challenges.",
+      "score": 7,
+      "tags": [
+        "catholic-intellectual",
+        "theology",
+        "philosophy"
+      ],
+      "ggiConnection": "Connects to GGI's concern with cultural renewal and the need for thoughtful Christian engagement with modernity.",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-04-28T15:31:28.643865+00:00"
+    },
+    {
+      "id": "catholic-world-repor-saint-louis-de-montfort-and-his-short-perfect-and-sure-way-9d5210",
+      "category": "read",
+      "title": "Saint Louis de Montfort and his “short, perfect and sure way” to Christ",
+      "source": "Catholic World Report",
+      "date": "2026-04-28",
+      "url": "https://www.catholicworldreport.com/2026/04/28/saint-louis-de-montfort-and-his-short-perfect-and-sure-way-to-christ/",
+      "summary": "Thoughtful exploration of St. Louis de Montfort's Marian spirituality and path to Christ, offering solid spiritual and intellectual content.",
+      "score": 7,
+      "tags": [
+        "catholic-news",
+        "analysis",
+        "culture"
+      ],
+      "ggiConnection": "Aligns with GGI's Catholic intellectual tradition and formation focus",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-04-28T15:31:28.643870+00:00"
+    },
+    {
+      "id": "catholic-world-repor-seeing-woman-through-the-eyes-of-gertrud-von-le-fort-5846be",
+      "category": "read",
+      "title": "Seeing Woman through the Eyes of Gertrud von le Fort",
+      "source": "Catholic World Report",
+      "date": "2026-04-25",
+      "url": "https://www.catholicworldreport.com/2026/04/25/seeing-woman-through-the-eyes-of-gertrud-von-le-fort/",
+      "summary": "Literary analysis exploring the Catholic understanding of womanhood through the works of German Catholic author Gertrud von le Fort.",
+      "score": 7,
+      "tags": [
+        "catholic-news",
+        "analysis",
+        "culture"
+      ],
+      "ggiConnection": "Strong connection to GGI's Great Books tradition and Catholic intellectual heritage",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-04-28T15:31:28.643876+00:00"
+    },
+    {
+      "id": "new-liturgical-movem-two-royal-psalters-2db5c8",
+      "category": "read",
+      "title": "Two Royal Psalters",
+      "source": "New Liturgical Movement",
+      "date": "2026-04-27",
+      "url": "https://www.newliturgicalmovement.org/2026/04/two-royal-psalters.html",
+      "summary": "Examines historical royal psalters as examples of sacred art and liturgical manuscript tradition, showcasing intersection of beauty, worship, and cultural heritage.",
+      "score": 7,
+      "tags": [
+        "liturgy",
+        "beauty",
+        "sacred-art"
+      ],
+      "ggiConnection": "Connects to GGI's emphasis on liturgy, beauty, and preservation of Catholic cultural treasures.",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-04-28T15:31:28.643881+00:00"
+    },
+    {
+      "id": "new-liturgical-movem-the-eastertide-hymns-of-the-apostles-0ceb5c",
+      "category": "read",
+      "title": "The Eastertide Hymns of the Apostles",
+      "source": "New Liturgical Movement",
+      "date": "2026-04-24",
+      "url": "https://www.newliturgicalmovement.org/2026/04/the-eastertide-hymns-of-apostles.html",
+      "summary": "Analysis of Eastertide hymns attributed to the Apostles, exploring early Christian liturgical poetry and its theological significance for Easter celebration.",
+      "score": 7,
+      "tags": [
+        "liturgy",
+        "beauty",
+        "sacred-art"
+      ],
+      "ggiConnection": "Aligns with GGI's liturgy and beauty themes, connecting ancient tradition to contemporary worship.",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-04-28T15:31:28.643886+00:00"
+    },
+    {
+      "id": "new-liturgical-movem-the-solemnity-of-st-joseph-patron-of-the-universal-church-2-f4f448",
+      "category": "read",
+      "title": "The Solemnity of St Joseph, Patron of the Universal Church 2026",
+      "source": "New Liturgical Movement",
+      "date": "2026-04-22",
+      "url": "https://www.newliturgicalmovement.org/2026/04/the-solemnity-of-st-joseph-patron-of.html",
+      "summary": "Coverage of the upcoming Solemnity of St. Joseph in 2026, examining liturgical preparations and theological significance of this patronal feast.",
+      "score": 7,
+      "tags": [
+        "liturgy",
+        "beauty",
+        "sacred-art"
+      ],
+      "ggiConnection": "Strong connection to GGI's liturgical formation focus and emphasis on Catholic traditions",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-04-28T15:31:28.643890+00:00"
+    }
+  ]
+}
