@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Magnalia Letter — Content Review</title>
+  <style>
+    :root {
+      --navy: #0e3352;
+      --gold: #b89a47;
+      --crimson: #84292d;
+      --parchment: #f8ebd9;
+      --linen: #f4f1eb;
+      --ink: #333;
+      --gray: #666;
+      --light-border: #e8e4dc;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      background-color: var(--linen);
+      color: var(--ink);
+      line-height: 1.6;
+    }
+
+    /* Header */
+    .header {
+      background-color: var(--navy);
+      padding: 24px 0;
+      border-bottom: 3px solid var(--gold);
+    }
+
+    .header__inner {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .header__seal {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      border: 2px solid rgba(184,154,71,0.3);
+    }
+
+    .header__text h1 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #f5efe5;
+      letter-spacing: 0.02em;
+    }
+
+    .header__text p {
+      font-size: 0.85rem;
+      color: var(--gold);
+      font-style: italic;
+    }
+
+    /* Status bar */
+    .status-bar {
+      background-color: white;
+      border-bottom: 1px solid var(--light-border);
+      padding: 16px 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+
+    .status-bar__inner {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .status-bar__info {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 0.85rem;
+      color: var(--gray);
+    }
+
+    .status-bar__info strong {
+      color: var(--navy);
+    }
+
+    .status-bar__count {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--gold);
+    }
+
+    .btn-submit {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: white;
+      background-color: var(--crimson);
+      border: none;
+      padding: 10px 24px;
+      border-radius: 3px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+
+    .btn-submit:hover { background-color: #6b2124; }
+    .btn-submit:disabled { background-color: #ccc; cursor: not-allowed; }
+
+    /* Filters */
+    .filters {
+      max-width: 900px;
+      margin: 20px auto 0;
+      padding: 0 24px;
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .filter-btn {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 6px 16px;
+      border: 1px solid var(--light-border);
+      border-radius: 20px;
+      background-color: white;
+      color: var(--gray);
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .filter-btn:hover { border-color: var(--gold); color: var(--navy); }
+    .filter-btn.active { background-color: var(--navy); color: white; border-color: var(--navy); }
+
+    /* Cards */
+    .cards {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 0 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .card {
+      background-color: white;
+      border: 1px solid var(--light-border);
+      border-radius: 4px;
+      overflow: hidden;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .card:hover { border-color: var(--gold); box-shadow: 0 4px 16px rgba(14,51,82,0.06); }
+    .card.selected { border-color: var(--gold); border-width: 2px; background-color: #fffdf8; }
+
+    .card__inner {
+      padding: 24px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 20px;
+      align-items: start;
+    }
+
+    .card__category {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin-bottom: 4px;
+    }
+
+    .card__title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--navy);
+      line-height: 1.3;
+      margin-bottom: 4px;
+    }
+
+    .card__source {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 0.78rem;
+      color: var(--gray);
+      margin-bottom: 10px;
+    }
+
+    .card__summary {
+      font-size: 0.95rem;
+      line-height: 1.65;
+      color: var(--gray);
+      margin-bottom: 10px;
+    }
+
+    .card__connection {
+      font-size: 0.82rem;
+      font-style: italic;
+      color: var(--gold);
+      padding: 8px 12px;
+      background-color: rgba(184,154,71,0.08);
+      border-radius: 3px;
+      margin-bottom: 12px;
+    }
+
+    .card__score {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 0.75rem;
+      font-weight: 600;
+      display: inline-flex;
+      gap: 2px;
+    }
+
+    .card__score .star { color: var(--gold); }
+    .card__score .star--empty { color: #ddd; }
+
+    .card__actions {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .btn-read {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--navy);
+      background: none;
+      border: 1px solid var(--light-border);
+      padding: 6px 16px;
+      border-radius: 3px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+
+    .btn-read:hover { border-color: var(--navy); background-color: var(--navy); color: white; }
+
+    .card__select {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+      min-width: 80px;
+    }
+
+    .select-btn {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      border: 2px solid var(--light-border);
+      background-color: white;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.4rem;
+      transition: all 0.2s;
+      color: #ccc;
+    }
+
+    .select-btn:hover { border-color: var(--gold); color: var(--gold); }
+    .select-btn.active { border-color: var(--gold); background-color: var(--gold); color: white; }
+
+    .select-label {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: var(--gray);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .select-btn.active + .select-label { color: var(--gold); }
+
+    /* Tags */
+    .card__tags {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin-top: 4px;
+    }
+
+    .tag {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 0.68rem;
+      font-weight: 500;
+      padding: 2px 8px;
+      border-radius: 10px;
+      background-color: var(--linen);
+      color: var(--gray);
+    }
+
+    .tag--canadian { background-color: #e8f0e8; color: #2d6a4f; }
+
+    /* Category icons */
+    .cat-icon { margin-right: 4px; }
+
+    /* Submit overlay */
+    .overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background-color: rgba(14,51,82,0.6);
+      z-index: 200;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .overlay.active { display: flex; }
+
+    .overlay__panel {
+      background-color: white;
+      border-radius: 4px;
+      padding: 40px;
+      max-width: 500px;
+      width: 90%;
+      text-align: center;
+    }
+
+    .overlay__panel h2 {
+      color: var(--navy);
+      margin-bottom: 12px;
+    }
+
+    .overlay__panel p {
+      color: var(--gray);
+      margin-bottom: 24px;
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    .overlay__panel .success { color: #2d6a4f; font-weight: 700; font-size: 1.1rem; }
+    .overlay__panel .error { color: var(--crimson); }
+
+    .btn-close {
+      font-family: Georgia, serif;
+      font-size: 0.9rem;
+      font-weight: 700;
+      padding: 10px 28px;
+      border: 1px solid var(--light-border);
+      background: white;
+      border-radius: 3px;
+      cursor: pointer;
+      color: var(--navy);
+    }
+
+    /* Empty state */
+    .empty-state {
+      text-align: center;
+      padding: 60px 24px;
+      color: var(--gray);
+    }
+
+    .empty-state h2 { color: var(--navy); margin-bottom: 8px; }
+
+    /* Footer */
+    .footer {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 24px;
+      text-align: center;
+      border-top: 1px solid var(--light-border);
+    }
+
+    .footer p {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 0.78rem;
+      color: var(--gray);
+    }
+
+    .footer em { color: var(--gold); }
+
+    /* Mobile */
+    @media (max-width: 640px) {
+      .card__inner {
+        grid-template-columns: 1fr;
+      }
+      .card__select {
+        flex-direction: row;
+        justify-content: flex-start;
+      }
+      .header__inner { flex-wrap: wrap; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header__inner">
+      <img src="https://evanr-web.github.io/ggi-website/images/branding/ggi-seal.png" alt="GGI" class="header__seal">
+      <div class="header__text">
+        <h1>Magnalia Letter — Content Review</h1>
+        <p id="week-label">Loading...</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Sticky status bar -->
+  <div class="status-bar">
+    <div class="status-bar__inner">
+      <div class="status-bar__info">
+        <span id="item-count">0</span> items &ensp;·&ensp; <strong id="selected-count">0 selected</strong>
+      </div>
+      <button class="btn-submit" id="btn-submit" disabled onclick="submitSelections()">
+        Send Selections to Victor →
+      </button>
+    </div>
+  </div>
+
+  <!-- Filters -->
+  <div class="filters" id="filters">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="read">📖 Read</button>
+    <button class="filter-btn" data-filter="book">📚 Books</button>
+    <button class="filter-btn" data-filter="watch">🎬 Watch</button>
+    <button class="filter-btn" data-filter="listen">🎧 Listen</button>
+    <button class="filter-btn" data-filter="beauty">🎨 Beauty</button>
+  </div>
+
+  <!-- Cards -->
+  <div class="cards" id="cards"></div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p><em>Fides · Ratio · Cultura</em></p>
+    <p style="margin-top: 4px;">Gregory the Great Institute · Curation Board</p>
+  </div>
+
+  <!-- Submit overlay -->
+  <div class="overlay" id="overlay">
+    <div class="overlay__panel" id="overlay-panel">
+      <h2 id="overlay-title">Sending...</h2>
+      <p id="overlay-message">Submitting your selections to Victor.</p>
+      <button class="btn-close" id="overlay-close" onclick="closeOverlay()" style="display: none;">Close</button>
+    </div>
+  </div>
+
+  <script>
+    // =============================================
+    // CONFIG
+    // =============================================
+    const SUBMIT_ENDPOINT = './api/submit'; // Cloudflare Function endpoint
+    const STORAGE_KEY = 'magnalia-selections';
+
+    // =============================================
+    // STATE
+    // =============================================
+    let items = [];
+    let selected = new Set(JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'));
+    let activeFilter = 'all';
+
+    // =============================================
+    // LOAD DATA
+    // =============================================
+    async function loadData() {
+      // Find the most recent data file
+      // In production, this will be generated weekly
+      // For now, load the sample
+      try {
+        const res = await fetch('./data/sample-2026-05-04.json');
+        const data = await res.json();
+        items = data.items;
+        document.getElementById('week-label').textContent = `Week of ${formatDate(data.week)} · ${data.itemCount} items`;
+        document.getElementById('item-count').textContent = data.itemCount;
+        renderCards();
+        updateSelectedCount();
+      } catch (e) {
+        document.getElementById('cards').innerHTML = `
+          <div class="empty-state">
+            <h2>No digest available</h2>
+            <p>The weekly content digest hasn't been generated yet. Check back Monday.</p>
+          </div>`;
+      }
+    }
+
+    // =============================================
+    // RENDER
+    // =============================================
+    const categoryLabels = {
+      read: '📖 Read',
+      book: '📚 Book',
+      watch: '🎬 Watch',
+      listen: '🎧 Listen',
+      beauty: '🎨 Beauty'
+    };
+
+    function renderStars(score) {
+      const stars = Math.round(score / 3.33); // 1-10 → 1-3 stars
+      const capped = Math.min(Math.max(stars, 1), 3);
+      let html = '';
+      for (let i = 0; i < 3; i++) {
+        html += `<span class="star${i >= capped ? ' star--empty' : ''}">★</span>`;
+      }
+      return html;
+    }
+
+    function renderCards() {
+      const container = document.getElementById('cards');
+      const filtered = activeFilter === 'all' ? items : items.filter(i => i.category === activeFilter);
+
+      if (filtered.length === 0) {
+        container.innerHTML = `
+          <div class="empty-state">
+            <h2>No items in this category</h2>
+            <p>Try a different filter.</p>
+          </div>`;
+        return;
+      }
+
+      // Sort by score descending
+      const sorted = [...filtered].sort((a, b) => b.score - a.score);
+
+      container.innerHTML = sorted.map(item => `
+        <div class="card ${selected.has(item.id) ? 'selected' : ''}" id="card-${item.id}">
+          <div class="card__inner">
+            <div>
+              <p class="card__category">${categoryLabels[item.category] || item.category}</p>
+              <h3 class="card__title">${item.title}</h3>
+              <p class="card__source">${item.source} · ${formatDate(item.date)}</p>
+              <p class="card__summary">${item.summary}</p>
+              ${item.ggiConnection ? `<p class="card__connection">🔗 ${item.ggiConnection}</p>` : ''}
+              <div class="card__actions">
+                <a href="${item.url}" target="_blank" rel="noopener" class="btn-read">Read Article ↗</a>
+                <div class="card__score">${renderStars(item.score)}</div>
+                <div class="card__tags">
+                  ${item.tags.map(t => `<span class="tag${t === 'canadian' ? ' tag--canadian' : ''}">${t}</span>`).join('')}
+                </div>
+              </div>
+            </div>
+            <div class="card__select">
+              <button class="select-btn ${selected.has(item.id) ? 'active' : ''}" 
+                      onclick="toggleSelect('${item.id}')"
+                      aria-label="Select this item">
+                ${selected.has(item.id) ? '✓' : '+'}
+              </button>
+              <span class="select-label">${selected.has(item.id) ? 'Selected' : 'Select'}</span>
+            </div>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    // =============================================
+    // SELECTION
+    // =============================================
+    function toggleSelect(id) {
+      if (selected.has(id)) {
+        selected.delete(id);
+      } else {
+        selected.add(id);
+      }
+      localStorage.setItem(STORAGE_KEY, JSON.stringify([...selected]));
+      renderCards();
+      updateSelectedCount();
+    }
+
+    function updateSelectedCount() {
+      const count = selected.size;
+      document.getElementById('selected-count').textContent = `${count} selected`;
+      document.getElementById('btn-submit').disabled = count === 0;
+    }
+
+    // =============================================
+    // FILTERS
+    // =============================================
+    document.getElementById('filters').addEventListener('click', (e) => {
+      if (!e.target.classList.contains('filter-btn')) return;
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      e.target.classList.add('active');
+      activeFilter = e.target.dataset.filter;
+      renderCards();
+    });
+
+    // =============================================
+    // SUBMIT
+    // =============================================
+    async function submitSelections() {
+      const overlay = document.getElementById('overlay');
+      const title = document.getElementById('overlay-title');
+      const message = document.getElementById('overlay-message');
+      const closeBtn = document.getElementById('overlay-close');
+
+      overlay.classList.add('active');
+      title.textContent = 'Sending...';
+      message.textContent = 'Submitting your selections to Victor.';
+      message.className = '';
+      closeBtn.style.display = 'none';
+
+      const selectedItems = items.filter(i => selected.has(i.id));
+      const payload = {
+        week: document.getElementById('week-label').textContent,
+        submittedAt: new Date().toISOString(),
+        selections: selectedItems.map(i => ({
+          id: i.id,
+          title: i.title,
+          source: i.source,
+          url: i.url,
+          category: i.category,
+          summary: i.summary
+        }))
+      };
+
+      try {
+        const res = await fetch(SUBMIT_ENDPOINT, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+
+        if (res.ok) {
+          title.textContent = '✓ Selections Sent';
+          message.textContent = `${selectedItems.length} items sent to Victor. He'll receive an email with your selections formatted and ready for the Magnalia Letter.`;
+          message.className = 'success';
+        } else {
+          throw new Error(`Server returned ${res.status}`);
+        }
+      } catch (e) {
+        title.textContent = 'Couldn\'t send automatically';
+        message.innerHTML = `
+          <p class="error" style="margin-bottom: 16px;">The submit endpoint isn't configured yet. No worries — here's your selections:</p>
+          <textarea style="width: 100%; height: 200px; font-family: monospace; font-size: 12px; padding: 12px; border: 1px solid #ddd; border-radius: 3px; resize: vertical;">${formatSelectionsText(selectedItems)}</textarea>
+          <p style="margin-top: 12px; font-size: 0.85rem;">Copy the text above and email it to Victor, or use the button below.</p>
+          <a href="mailto:vcarpay@gregorythegreat.ca?subject=${encodeURIComponent('Magnalia Letter Selections — ' + payload.week)}&body=${encodeURIComponent(formatSelectionsText(selectedItems))}" 
+             style="display: inline-block; margin-top: 12px; padding: 10px 24px; background-color: #0e3352; color: white; text-decoration: none; border-radius: 3px; font-weight: 700; font-size: 0.9rem;">
+            Email to Victor →
+          </a>`;
+      }
+
+      closeBtn.style.display = 'inline-block';
+    }
+
+    function formatSelectionsText(selectedItems) {
+      let text = `MAGNALIA LETTER — SELECTIONS\n`;
+      text += `Submitted: ${new Date().toLocaleDateString('en-CA')}\n\n`;
+      text += `${selectedItems.length} items selected:\n\n`;
+      text += '─'.repeat(40) + '\n\n';
+
+      selectedItems.forEach((item, i) => {
+        text += `${i + 1}. ${item.title}\n`;
+        text += `   Source: ${item.source}\n`;
+        text += `   Category: ${categoryLabels[item.category] || item.category}\n`;
+        text += `   URL: ${item.url}\n`;
+        text += `   Summary: ${item.summary}\n\n`;
+      });
+
+      return text;
+    }
+
+    function closeOverlay() {
+      document.getElementById('overlay').classList.remove('active');
+    }
+
+    // =============================================
+    // UTILS
+    // =============================================
+    function formatDate(dateStr) {
+      const d = new Date(dateStr + 'T00:00:00');
+      const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+      return `${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
+    }
+
+    // =============================================
+    // INIT
+    // =============================================
+    loadData();
+  </script>
+
+</body>
+</html>
