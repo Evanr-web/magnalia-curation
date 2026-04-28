@@ -519,6 +519,13 @@ def run_pipeline(dry_run=False):
     validated = []
     rejected_links = 0
     for item in unique:
+        # High-trust sources skip link validation (some block bots but are safe)
+        if item.get('_trust') == 'high':
+            item['validated'] = True
+            item['flags'].append('trust-skip-linkcheck')
+            validated.append(item)
+            continue
+        
         valid, status, flags, final_url = validate_link(item['url'])
         if valid:
             item['validated'] = True
