@@ -572,6 +572,8 @@ def run_pipeline(dry_run=False):
     for item in final_items:
         item.pop('_trust', None)
         item.pop('_raw_summary', None)
+        # Strip internal-only flags from output (keep user-facing ones)
+        item['flags'] = [f for f in item.get('flags', []) if not f.startswith('trust-skip-')]
         # Add validation metadata
         item['validatedAt'] = datetime.now(timezone.utc).isoformat()
     
