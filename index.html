@@ -552,6 +552,13 @@
     </div>
   </div>
 
+  <!-- Sample data banner -->
+  <div id="sample-banner" style="display: none; max-width: 900px; margin: 16px auto 0; padding: 0 24px;">
+    <div style="background-color: #fff3cd; border: 1px solid #ffc107; border-radius: 4px; padding: 12px 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 0.82rem; color: #856404;">
+      <strong>⚠ Sample Data</strong> — This digest contains illustrative content for demo purposes. Links may not resolve. Live digests with validated links will be generated weekly once the crawl pipeline is active.
+    </div>
+  </div>
+
   <!-- Filters -->
   <div class="filters" id="filters">
     <button class="filter-btn active" data-filter="all">All</button>
@@ -651,6 +658,10 @@
         loadCustomItems();
         document.getElementById('week-label').textContent = `Week of ${formatDate(data.week)} · ${items.length} items`;
         document.getElementById('item-count').textContent = items.length;
+        // Show sample banner if data file is a sample
+        if (data.week === '2026-05-04') {
+          document.getElementById('sample-banner').style.display = 'block';
+        }
         renderCards();
         updateSelectedCount();
       } catch (e) {
