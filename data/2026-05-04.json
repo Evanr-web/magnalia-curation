@@ -1,92 +1,54 @@
 {
   "week": "2026-05-04",
-  "generated": "2026-04-28T23:16:33.803782+00:00",
+  "generated": "2026-05-04T05:03:18.342994+00:00",
   "itemCount": 20,
   "crawlStats": {
     "sourcesChecked": 16,
-    "candidatesFound": 120,
-    "afterDedup": 120,
+    "candidatesFound": 127,
+    "afterDedup": 127,
     "rejectedLinks": 0,
     "rejectedSecurity": 0,
-    "belowScoreThreshold": 32,
+    "belowScoreThreshold": 39,
     "finalItems": 20
   },
   "items": [
     {
-      "id": "first-things-god-and-man-at-mit-aaed20",
+      "id": "first-things-recovering-the-universitys-soul-bd19b7",
       "category": "read",
-      "title": "God and Man at MIT",
+      "title": "Recovering the University’s Soul",
       "source": "First Things",
-      "date": "2026-04-27",
-      "url": "https://firstthings.com/god-and-man-at-mit/",
-      "summary": "Examines the intersection of faith and academic life at MIT, exploring how Catholic intellectuals navigate secular higher education environments.",
+      "date": "2026-04-30",
+      "url": "https://firstthings.com/recovering-the-universitys-soul/",
+      "summary": "A substantive analysis of higher education's crisis and the need to restore authentic university education rooted in truth and wisdom. The article addresses fundamental questions about the purpose and mission of academic institutions.",
       "score": 8,
       "tags": [
         "catholic-intellectual",
         "culture",
         "theology"
       ],
-      "ggiConnection": "Directly relevant to GGI's mission of Catholic intellectual formation and the integration of faith with rigorous academic inquiry.",
+      "ggiConnection": "Directly aligns with GGI's educational mission and classical learning principles",
       "validated": true,
       "flags": [],
-      "validatedAt": "2026-04-28T23:16:33.803497+00:00"
+      "validatedAt": "2026-05-04T05:03:18.342744+00:00"
     },
     {
-      "id": "first-things-the-word-became-flesh-and-picked-up-a-hammer-7e2137",
+      "id": "church-life-journal--solidarity-without-enemies-józef-tischner-and-the-conversat-a051e7",
       "category": "read",
-      "title": "The Word Became Flesh and Picked Up a Hammer",
-      "source": "First Things",
-      "date": "2026-04-23",
-      "url": "https://firstthings.com/the-word-became-flesh-and-picked-up-a-hammer/",
-      "summary": "Reflects on the dignity of manual labor and craftsmanship through a theological lens, connecting the Incarnation to the value of physical work.",
+      "title": "Solidarity Without Enemies: Józef Tischner and the Conversation of Human Labor",
+      "source": "Church Life Journal (Notre Dame)",
+      "date": "2026-05-01",
+      "url": "https://churchlifejournal.nd.edu/articles/solidarity-without-enemies-jozef-tischner-and-the-conversation-of-human-labor/",
+      "summary": "Scholarly exploration of Polish philosopher Józef Tischner's contributions to Catholic social thought, particularly regarding human labor and solidarity.",
       "score": 8,
       "tags": [
         "catholic-intellectual",
-        "culture",
-        "theology"
+        "theology",
+        "philosophy"
       ],
-      "ggiConnection": "Aligns with GGI's holistic approach to formation and the integration of contemplation with practical skills and craftsmanship.",
+      "ggiConnection": "Strong alignment with GGI's Catholic intellectual tradition and philosophical formation focus",
       "validated": true,
       "flags": [],
-      "validatedAt": "2026-04-28T23:16:33.803562+00:00"
-    },
-    {
-      "id": "first-things-ratzinger-in-the-whirlwind-0b7803",
-      "category": "read",
-      "title": "Ratzinger in the Whirlwind",
-      "source": "First Things",
-      "date": "2026-04-22",
-      "url": "https://firstthings.com/ratzinger-in-the-whirlwind/",
-      "summary": "Analysis of Pope Benedict XVI (Ratzinger) during turbulent times in the Church, exploring his theological contributions and leadership during crisis.",
-      "score": 8,
-      "tags": [
-        "catholic-intellectual",
-        "culture",
-        "theology"
-      ],
-      "ggiConnection": "Connects to GGI's focus on the Catholic intellectual tradition and proper understanding of Church teaching and leadership.",
-      "validated": true,
-      "flags": [],
-      "validatedAt": "2026-04-28T23:16:33.803573+00:00"
-    },
-    {
-      "id": "first-things-ecclesiacide-then-and-now-b26e9b",
-      "category": "read",
-      "title": "“Ecclesiacide,” Then and Now",
-      "source": "First Things",
-      "date": "2026-04-22",
-      "url": "https://firstthings.com/ecclesiacide-then-and-now/",
-      "summary": "Historical and contemporary analysis of attacks on the Church ('ecclesiacide'), drawing parallels between past and present challenges to Catholic institutional life.",
-      "score": 8,
-      "tags": [
-        "catholic-intellectual",
-        "culture",
-        "theology"
-      ],
-      "ggiConnection": "Aligns with GGI's concerns about cultural renewal and defending Catholic institutions and traditions.",
-      "validated": true,
-      "flags": [],
-      "validatedAt": "2026-04-28T23:16:33.803581+00:00"
+      "validatedAt": "2026-05-04T05:03:18.342787+00:00"
     },
     {
       "id": "church-life-journal--declinism-is-easy-art-beauty-and-the-need-to-make-it-new-810301",
@@ -95,36 +57,92 @@
       "source": "Church Life Journal (Notre Dame)",
       "date": "2026-04-28",
       "url": "https://churchlifejournal.nd.edu/articles/the-church-of-whats-happenin-now-art-beauty-and-the-need-to-make-it-new/",
-      "summary": "Thoughtful critique of cultural pessimism, arguing for the importance of art and beauty in cultural renewal rather than simply lamenting decline.",
+      "summary": "Thoughtful critique of cultural pessimism with a call to create new expressions of beauty and art rooted in Catholic tradition.",
       "score": 8,
       "tags": [
         "catholic-intellectual",
         "theology",
         "philosophy"
       ],
-      "ggiConnection": "Directly connects to GGI's emphasis on beauty, cultural renewal, and the positive work of creating rather than merely critiquing.",
+      "ggiConnection": "Directly relates to GGI's emphasis on beauty, cultural renewal, and creative engagement with tradition",
       "validated": true,
       "flags": [],
-      "validatedAt": "2026-04-28T23:16:33.803591+00:00"
+      "validatedAt": "2026-05-04T05:03:18.342796+00:00"
     },
     {
-      "id": "catholic-world-repor-seeing-woman-through-the-eyes-of-gertrud-von-le-fort-5846be",
+      "id": "the-pillar-living-stones-and-the-limits-of-language-8ec3db",
       "category": "read",
-      "title": "Seeing Woman through the Eyes of Gertrud von le Fort",
+      "title": "Living stones and the limits of language",
+      "source": "The Pillar",
+      "date": "2026-04-29",
+      "url": "https://www.pillarcatholic.com/p/living-stones-and-the-limits-of-language",
+      "summary": "Theological reflection on ecclesiology and communication, exploring deeper questions of faith and language.",
+      "score": 8,
+      "tags": [
+        "catholic-news",
+        "analysis"
+      ],
+      "ggiConnection": "Aligns with GGI's faith and reason integration, Catholic intellectual tradition",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-05-04T05:03:18.342805+00:00"
+    },
+    {
+      "id": "catholic-world-repor-in-syria-icon-restoration-becomes-quiet-fight-to-preserve-c-612813",
+      "category": "read",
+      "title": "In Syria, icon restoration becomes quiet fight to preserve Christian memory",
       "source": "Catholic World Report",
-      "date": "2026-04-25",
-      "url": "https://www.catholicworldreport.com/2026/04/25/seeing-woman-through-the-eyes-of-gertrud-von-le-fort/",
-      "summary": "Intellectual analysis of German Catholic writer Gertrud von le Fort's theological anthropology of women, offering substantive engagement with Catholic literary tradition.",
+      "date": "2026-05-03",
+      "url": "https://www.catholicworldreport.com/2026/05/03/in-syria-icon-restoration-becomes-quiet-fight-to-preserve-christian-memory/",
+      "summary": "Article explores the preservation of Christian cultural heritage through icon restoration in Syria, highlighting the intersection of faith, art, and cultural memory in the face of persecution.",
       "score": 8,
       "tags": [
         "catholic-news",
         "analysis",
         "culture"
       ],
-      "ggiConnection": "Strong connection to Catholic intellectual tradition, Great Books, and literary analysis",
+      "ggiConnection": "Aligns with GGI themes of beauty, cultural renewal, and preserving Christian intellectual and artistic tradition",
       "validated": true,
       "flags": [],
-      "validatedAt": "2026-04-28T23:16:33.803602+00:00"
+      "validatedAt": "2026-05-04T05:03:18.342814+00:00"
+    },
+    {
+      "id": "catholic-world-repor-toronto-catholic-conference-to-explore-breakdown-of-the-soci-610e1e",
+      "category": "read",
+      "title": "Toronto Catholic conference to explore breakdown of the social covenant",
+      "source": "Catholic World Report",
+      "date": "2026-05-02",
+      "url": "https://www.catholicworldreport.com/2026/05/02/toronto-catholic-conference-to-explore-breakdown-of-the-social-covenant/",
+      "summary": "A Toronto Catholic conference examining the breakdown of social covenant directly addresses Canadian Catholic intellectual life and cultural renewal themes. Strong alignment with GGI's mission of faith, reason, and cultural analysis.",
+      "score": 8,
+      "tags": [
+        "catholic-news",
+        "analysis",
+        "culture"
+      ],
+      "ggiConnection": "Directly connects to GGI's cultural renewal mission and Canadian Catholic formation focus",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-05-04T05:03:18.342822+00:00"
+    },
+    {
+      "id": "new-liturgical-movem-francis-x-weiser-sj-the-domestic-heortologist-part-two--31a034",
+      "category": "read",
+      "title": "Francis X. Weiser, SJ, the Domestic Heortologist, Part Two: Liturgiology",
+      "source": "New Liturgical Movement",
+      "date": "2026-05-01",
+      "url": "https://www.newliturgicalmovement.org/2026/05/francis-x-weiser-sj-domestic.html",
+      "summary": "Scholarly examination of Francis X. Weiser's contributions to liturgical studies and domestic religious practices, part of a series on liturgical scholarship.",
+      "score": 8,
+      "tags": [
+        "liturgy",
+        "beauty",
+        "sacred-art"
+      ],
+      "ggiConnection": "Strong connection to GGI themes of liturgy, formation, and the integration of faith into domestic life",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-05-04T05:03:18.342829+00:00"
     },
     {
       "id": "new-liturgical-movem-forming-families-to-sing-with-angels-621eab",
@@ -133,131 +151,93 @@
       "source": "New Liturgical Movement",
       "date": "2026-04-28",
       "url": "https://www.newliturgicalmovement.org/2026/04/forming-families-to-sing-with-angels.html",
-      "summary": "Explores liturgical music education for families, emphasizing the formation of children in sacred song as part of domestic church life.",
+      "summary": "Practical guide for families on incorporating liturgical singing and sacred music into domestic formation and worship.",
       "score": 8,
       "tags": [
         "liturgy",
         "beauty",
         "sacred-art"
       ],
-      "ggiConnection": "Strong connection to liturgy, beauty, and family formation themes central to GGI mission",
+      "ggiConnection": "Strong alignment with GGI's focus on family formation, liturgy, beauty through sacred music, and community building",
       "validated": true,
       "flags": [],
-      "validatedAt": "2026-04-28T23:16:33.803612+00:00"
+      "validatedAt": "2026-05-04T05:03:18.342838+00:00"
     },
     {
-      "id": "new-liturgical-movem-against-concelebration-the-remarkable-intervention-of-archb-86a207",
-      "category": "read",
-      "title": "Against Concelebration: The Remarkable Intervention of Archbishop Paul-Pierre Philippe OP at Vatican II",
-      "source": "New Liturgical Movement",
-      "date": "2026-04-22",
-      "url": "https://www.newliturgicalmovement.org/2026/04/against-concelebration-remarkable.html",
-      "summary": "Historical examination of Archbishop Philippe's theological arguments against widespread concelebration during Vatican II debates.",
-      "score": 8,
-      "tags": [
-        "liturgy",
-        "beauty",
-        "sacred-art"
-      ],
-      "ggiConnection": "Substantial intellectual content on liturgical theology that aligns with GGI's Catholic intellectual tradition and liturgical formation.",
-      "validated": true,
-      "flags": [],
-      "validatedAt": "2026-04-28T23:16:33.803619+00:00"
-    },
-    {
-      "id": "public-discourse-(wi-what-can-be-done-about-the-universities-8221cd",
-      "category": "read",
-      "title": "What Can Be Done about the Universities?",
-      "source": "Public Discourse (Witherspoon)",
-      "date": "2026-04-22",
-      "url": "https://www.thepublicdiscourse.com/2026/04/100792/?utm_source=rss&utm_medium=rss&utm_campaign=what-can-be-done-about-the-universities",
-      "summary": "Addresses the crisis in higher education with potential solutions, likely focusing on intellectual integrity and educational reform. Critical topic for Canadian educational renewal.",
-      "score": 8,
-      "tags": [
-        "natural-law",
-        "ethics",
-        "public-policy"
-      ],
-      "ggiConnection": "Directly relevant to GGI's educational mission and formation work",
-      "validated": true,
-      "flags": [],
-      "validatedAt": "2026-04-28T23:16:33.803627+00:00"
-    },
-    {
-      "id": "front-porch-republic-the-need-for-non-ironic-limits-a-review-of-the-philosophy-o-0f37ca",
-      "category": "read",
-      "title": "The Need for Non-Ironic Limits: A Review of The Philosophy of Philip Rieff",
-      "source": "Front Porch Republic",
-      "date": "2026-04-22",
-      "url": "https://www.frontporchrepublic.com/2026/04/the-need-for-non-ironic-limits-a-review-of-the-philosophy-of-philip-rieff/",
-      "summary": "Reviews Philip Rieff's philosophy examining the need for cultural limits and authority structures against therapeutic individualism.",
-      "score": 8,
-      "tags": [
-        "localism",
-        "community",
-        "culture"
-      ],
-      "ggiConnection": "Strong connection to GGI themes of cultural renewal and the Catholic intellectual tradition's engagement with secular philosophy and cultural criticism.",
-      "validated": true,
-      "flags": [],
-      "validatedAt": "2026-04-28T23:16:33.803634+00:00"
-    },
-    {
-      "id": "bishop-robert-barron-the-evangelical-power-of-the-old-testament-011c40",
+      "id": "bishop-robert-barron-heaven-in-stone-and-glass-experience-the-spirituality-of-th-47f0f4",
       "category": "watch",
-      "title": "The Evangelical Power of the Old Testament",
+      "title": "Heaven in Stone and Glass: Experience the Spirituality of the Gothic Cathedrals with Bishop Barron",
       "source": "Bishop Robert Barron",
-      "date": "2026-04-27",
-      "url": "https://www.youtube.com/watch?v=b1ZwRPC34fs",
-      "summary": "Bishop Barron explores how the Old Testament serves as a powerful evangelical tool, demonstrating its continued relevance for contemporary Catholic evangelization.",
+      "date": "2026-05-02",
+      "url": "https://www.youtube.com/watch?v=oHyViQuX93E",
+      "summary": "Bishop Barron explores the spiritual significance and beauty of Gothic cathedral architecture, connecting faith, art, and transcendence. Strong alignment with GGI's emphasis on beauty, liturgy, and the integration of faith and culture.",
       "score": 8,
       "tags": [
         "catholic-intellectual",
         "evangelization",
         "barron"
       ],
-      "ggiConnection": "Connects to GGI's emphasis on Scripture study and the Catholic intellectual tradition of biblical interpretation.",
+      "ggiConnection": "Directly relates to GGI themes of beauty, liturgy, and cultural formation through sacred architecture",
       "validated": true,
       "flags": [],
-      "validatedAt": "2026-04-28T23:16:33.803641+00:00"
+      "validatedAt": "2026-05-04T05:03:18.342845+00:00"
     },
     {
-      "id": "matt-fradd-(pints-wi-how-to-truly-know-something--dr-trent-dougherty-94391b",
-      "category": "watch",
-      "title": "How To Truly KNOW Something | Dr. Trent Dougherty",
-      "source": "Matt Fradd (Pints with Aquinas)",
-      "date": "2026-04-23",
-      "url": "https://www.youtube.com/watch?v=m2SvdFDT2ng",
-      "summary": "Philosophical discussion with Dr. Trent Dougherty on epistemology and the nature of true knowledge from a Catholic perspective.",
-      "score": 8,
+      "id": "first-things-how-the-splc-got-into-americas-classrooms-480e74",
+      "category": "read",
+      "title": "How the SPLC Got into America’s Classrooms",
+      "source": "First Things",
+      "date": "2026-05-01",
+      "url": "https://firstthings.com/how-the-splc-got-into-americas-classrooms/",
+      "summary": "An analysis of how the Southern Poverty Law Center has influenced American educational curricula and classroom materials. The article examines institutional capture in education and its implications for academic freedom.",
+      "score": 7,
       "tags": [
-        "catholic",
-        "philosophy",
-        "interviews"
-      ],
-      "ggiConnection": "Strong alignment with GGI's faith and reason integration, philosophical education, and Catholic intellectual tradition.",
-      "validated": true,
-      "flags": [],
-      "validatedAt": "2026-04-28T23:16:33.803649+00:00"
-    },
-    {
-      "id": "the-thomistic-instit-we-receive-gods-own-life--contemplata-ep-52-eee0cb",
-      "category": "watch",
-      "title": "We Receive God's Own Life | Contemplata Ep 52",
-      "source": "The Thomistic Institute",
-      "date": "2026-04-28",
-      "url": "https://www.youtube.com/shorts/5vsyfbGm8_s",
-      "summary": "Episode exploring the concept of receiving divine life through grace, examining the theological foundations of supernatural participation in God's nature.",
-      "score": 8,
-      "tags": [
-        "thomism",
-        "philosophy",
+        "catholic-intellectual",
+        "culture",
         "theology"
       ],
-      "ggiConnection": "Strongly aligns with GGI's Thomistic approach to theology and emphasis on the transformative power of Catholic intellectual formation.",
+      "ggiConnection": "Relevant to GGI's work on educational renewal and classical education alternatives",
       "validated": true,
       "flags": [],
-      "validatedAt": "2026-04-28T23:16:33.803658+00:00"
+      "validatedAt": "2026-05-04T05:03:18.342852+00:00"
+    },
+    {
+      "id": "first-things-microplastics-in-our-souls-461749",
+      "category": "read",
+      "title": "Microplastics in Our Souls",
+      "source": "First Things",
+      "date": "2026-04-30",
+      "url": "https://firstthings.com/microplastics-in-our-souls/",
+      "summary": "A creative cultural critique using the metaphor of microplastics to examine how modern material culture affects spiritual and moral life. The piece offers theological reflection on contemporary environmental and spiritual concerns.",
+      "score": 7,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "Connects to GGI's interest in faith-reason dialogue and cultural criticism",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-05-04T05:03:18.342859+00:00"
+    },
+    {
+      "id": "first-things-in-thanksgiving-for-the-gift-of-baptism-0b11c7",
+      "category": "read",
+      "title": "In Thanksgiving for the Gift of Baptism",
+      "source": "First Things",
+      "date": "2026-04-29",
+      "url": "https://firstthings.com/in-thanksgiving-for-the-gift-of-baptism/",
+      "summary": "A theological reflection on the sacrament of Baptism and its significance for Christian formation and identity. The piece offers spiritual and liturgical insights into this foundational Catholic sacrament.",
+      "score": 7,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "Connects to GGI's emphasis on liturgical formation and Catholic spiritual life",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-05-04T05:03:18.342867+00:00"
     },
     {
       "id": "first-things-how-science-killed-materialism-f1a28d",
@@ -266,74 +246,36 @@
       "source": "First Things",
       "date": "2026-04-28",
       "url": "https://firstthings.com/how-science-killed-materialism/",
-      "summary": "Explores how modern scientific discoveries challenge materialist worldviews, arguing that empirical evidence increasingly points beyond purely material explanations of reality.",
+      "summary": "Philosophical examination of how modern scientific discoveries challenge materialist worldviews and support arguments for the compatibility of faith and reason.",
       "score": 7,
       "tags": [
         "catholic-intellectual",
         "culture",
         "theology"
       ],
-      "ggiConnection": "Aligns with GGI's faith and reason integration, addressing the relationship between science and Catholic intellectual tradition.",
+      "ggiConnection": "Directly connects to GGI's faith + reason emphasis and Catholic intellectual tradition",
       "validated": true,
       "flags": [],
-      "validatedAt": "2026-04-28T23:16:33.803673+00:00"
+      "validatedAt": "2026-05-04T05:03:18.342873+00:00"
     },
     {
-      "id": "first-things-americas-prodigal-fathersft-timothy-goeglein-f4c38f",
+      "id": "church-life-journal--what-is-the-universal-call-to-holiness-in-the-church-a-dee-40cc11",
       "category": "read",
-      "title": "America’s Prodigal Fathers (ft. Timothy Goeglein)",
-      "source": "First Things",
-      "date": "2026-04-27",
-      "url": "https://firstthings.com/americas-prodigal-fathers-ft-timothy-s-goeglein/",
-      "summary": "Features Timothy Goeglein discussing the crisis of absent fathers in American culture and its broader societal implications for family formation.",
+      "title": "What Is the Universal Call to Holiness in the Church?: A Deep Dive into Lumen Gentium (Part 4)",
+      "source": "Church Life Journal (Notre Dame)",
+      "date": "2026-04-30",
+      "url": "https://churchlifejournal.nd.edu/articles/what-is-the-universal-call-to-holiness-in-the-church-a-deep-dive-into-lumen-gentium-part-4/",
+      "summary": "Fourth part of an in-depth theological series examining Vatican II's Lumen Gentium on the universal call to holiness within the Church.",
       "score": 7,
       "tags": [
         "catholic-intellectual",
-        "culture",
-        "theology"
+        "theology",
+        "philosophy"
       ],
-      "ggiConnection": "Connects to GGI's emphasis on community formation and cultural renewal through strengthened family structures.",
+      "ggiConnection": "Aligns with GGI's formation mission and deep engagement with Catholic teaching",
       "validated": true,
       "flags": [],
-      "validatedAt": "2026-04-28T23:16:33.803690+00:00"
-    },
-    {
-      "id": "first-things-when-envy-turns-apocalyptic-4b27f3",
-      "category": "read",
-      "title": "When Envy Turns Apocalyptic",
-      "source": "First Things",
-      "date": "2026-04-27",
-      "url": "https://firstthings.com/when-envy-turns-apocalyptic/",
-      "summary": "Analyzes how envy as a vice can escalate into apocalyptic thinking and destructive social movements, drawing on classical moral theology.",
-      "score": 7,
-      "tags": [
-        "catholic-intellectual",
-        "culture",
-        "theology"
-      ],
-      "ggiConnection": "Engages with classical virtue ethics tradition central to GGI's Great Books and Catholic intellectual heritage.",
-      "validated": true,
-      "flags": [],
-      "validatedAt": "2026-04-28T23:16:33.803699+00:00"
-    },
-    {
-      "id": "first-things-the-westdistorted-e0f282",
-      "category": "read",
-      "title": "The West Distorted",
-      "source": "First Things",
-      "date": "2026-04-23",
-      "url": "https://firstthings.com/the-west-distorted/",
-      "summary": "Examination of how Western civilization has been misrepresented or misunderstood, likely addressing cultural decline and the need for authentic understanding of our heritage.",
-      "score": 7,
-      "tags": [
-        "catholic-intellectual",
-        "culture",
-        "theology"
-      ],
-      "ggiConnection": "Directly aligns with GGI's mission of cultural renewal and proper understanding of Western Christian civilization.",
-      "validated": true,
-      "flags": [],
-      "validatedAt": "2026-04-28T23:16:33.803705+00:00"
+      "validatedAt": "2026-05-04T05:03:18.342881+00:00"
     },
     {
       "id": "church-life-journal--poetry-as-gift-eucharistic-miracle-294000",
@@ -342,54 +284,111 @@
       "source": "Church Life Journal (Notre Dame)",
       "date": "2026-04-27",
       "url": "https://churchlifejournal.nd.edu/articles/poetry-as-gift/",
-      "summary": "Exploration of poetry as a form of gift and its connection to Eucharistic spirituality, examining the intersection of literary art and sacramental theology.",
+      "summary": "Reflection on poetry as a form of spiritual gift, connecting literary art with Eucharistic spirituality and Catholic sacramental imagination.",
       "score": 7,
       "tags": [
         "catholic-intellectual",
         "theology",
         "philosophy"
       ],
-      "ggiConnection": "Connects to GGI's focus on beauty, liturgy, and the integration of arts with Catholic spiritual life.",
+      "ggiConnection": "Connects to GGI's emphasis on beauty, liturgy, and the integration of faith and culture",
       "validated": true,
       "flags": [],
-      "validatedAt": "2026-04-28T23:16:33.803711+00:00"
+      "validatedAt": "2026-05-04T05:03:18.342887+00:00"
     },
     {
-      "id": "church-life-journal--thinking-christianly-about-technology-again-technology-and--2149bc",
+      "id": "the-pillar-how-priestly-formation-is-changing-in-germany-8c0c67",
       "category": "read",
-      "title": "Thinking Christianly About Technology Again: Technology and the Fragmentation of Society",
-      "source": "Church Life Journal (Notre Dame)",
-      "date": "2026-04-23",
-      "url": "https://churchlifejournal.nd.edu/articles/thinking-christianly-about-technology-part-2-technology-and-the-fragmentation-of-society/",
-      "summary": "Christian analysis of technology's impact on social cohesion and community life, offering theological perspective on contemporary digital challenges.",
-      "score": 7,
-      "tags": [
-        "catholic-intellectual",
-        "theology",
-        "philosophy"
-      ],
-      "ggiConnection": "Connects to GGI's interest in cultural renewal and community formation in the face of modern challenges.",
-      "validated": true,
-      "flags": [],
-      "validatedAt": "2026-04-28T23:16:33.803717+00:00"
-    },
-    {
-      "id": "the-pillar-what-to-do-with-the-conversion-boom-d6e050",
-      "category": "read",
-      "title": "What to do with the conversion boom?",
+      "title": "How priestly formation is changing in Germany",
       "source": "The Pillar",
-      "date": "2026-04-24",
-      "url": "https://www.pillarcatholic.com/p/what-to-do-with-the-conversion-boom",
-      "summary": "Substantive analysis of how the Catholic Church should respond to increasing conversion rates and what pastoral strategies are needed.",
+      "date": "2026-04-29",
+      "url": "https://www.pillarcatholic.com/p/how-priestly-formation-is-changing",
+      "summary": "Analysis of evolving seminary education in Germany, examining contemporary challenges to Catholic formation.",
       "score": 7,
       "tags": [
         "catholic-news",
         "analysis"
       ],
-      "ggiConnection": "Strongly connects to GGI's mission of formation and community building in Catholic cultural renewal",
+      "ggiConnection": "Directly connects to GGI's formation and education mission",
       "validated": true,
       "flags": [],
-      "validatedAt": "2026-04-28T23:16:33.803724+00:00"
+      "validatedAt": "2026-05-04T05:03:18.342894+00:00"
+    },
+    {
+      "id": "catholic-world-repor-blue-miles-a-monastic-novel-introduces-the-monastic-life-to-a1d1db",
+      "category": "read",
+      "title": "Blue Miles: A Monastic Novel introduces the monastic life to 21st-century readers",
+      "source": "Catholic World Report",
+      "date": "2026-05-03",
+      "url": "https://www.catholicworldreport.com/2026/05/03/blue-miles-a-monastic-novel-introduces-the-monastic-life-to-21st-century-readers/",
+      "summary": "Review of contemporary monastic fiction that introduces religious life to modern audiences.",
+      "score": 7,
+      "tags": [
+        "catholic-news",
+        "analysis",
+        "culture"
+      ],
+      "ggiConnection": "Connects to GGI's interest in literature, cultural renewal, and religious formation",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-05-04T05:03:18.342902+00:00"
+    },
+    {
+      "id": "catholic-world-repor-the-story-of-everything-explores-ultimate-meaning-in-light-o-cbd9e3",
+      "category": "read",
+      "title": "The Story of Everything explores ultimate meaning in light of faith, science",
+      "source": "Catholic World Report",
+      "date": "2026-05-03",
+      "url": "https://www.catholicworldreport.com/2026/05/02/the-story-of-everything-explores-ultimate-meaning-in-light-of-faith-science/",
+      "summary": "Review or discussion of a work exploring the relationship between faith and science in understanding ultimate meaning and purpose.",
+      "score": 7,
+      "tags": [
+        "catholic-news",
+        "analysis",
+        "culture"
+      ],
+      "ggiConnection": "Connects to GGI's emphasis on faith and reason integration and engagement with fundamental questions of meaning",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-05-04T05:03:18.342909+00:00"
+    },
+    {
+      "id": "catholic-world-repor-no-christ-no-church-know-christ-know-the-church-43699b",
+      "category": "read",
+      "title": "No Christ, no Church; know Christ, know the Church",
+      "source": "Catholic World Report",
+      "date": "2026-05-02",
+      "url": "https://www.catholicworldreport.com/2026/05/02/no-christ-no-church-know-christ-know-the-church-2/",
+      "summary": "Theological reflection on the essential relationship between Christ and the Church, exploring fundamental ecclesiological questions.",
+      "score": 7,
+      "tags": [
+        "catholic-news",
+        "analysis",
+        "culture"
+      ],
+      "ggiConnection": "Aligns with Catholic intellectual tradition and theological formation that GGI promotes",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-05-04T05:03:18.342916+00:00"
+    },
+    {
+      "id": "catholic-world-repor-athanasius-contra-mundum-a-saint-for-a-time-of-confusion-5f341b",
+      "category": "read",
+      "title": "Athanasius contra mundum: A Saint for a time of confusion",
+      "source": "Catholic World Report",
+      "date": "2026-05-02",
+      "url": "https://www.catholicworldreport.com/2026/05/02/athanasius-of-alexandria/",
+      "summary": "Analysis of St. Athanasius as a model for times of confusion offers substantial intellectual depth and connects to classical Catholic education. Timeless wisdom applicable to contemporary cultural challenges.",
+      "score": 7,
+      "tags": [
+        "catholic-news",
+        "analysis",
+        "culture"
+      ],
+      "ggiConnection": "Aligns with GGI's Great Books tradition and classical Catholic education emphasis",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-05-04T05:03:18.342923+00:00"
     }
   ]
 }
