@@ -1,11 +1,11 @@
 {
-  "week": "2026-10-05",
-  "generated": "2026-10-05T05:00:25.377093+00:00",
+  "week": "2026-10-12",
+  "generated": "2026-10-12T05:00:29.396920+00:00",
   "itemCount": 20,
   "crawlStats": {
     "sourcesChecked": 16,
-    "candidatesFound": 92,
-    "afterDedup": 92,
+    "candidatesFound": 86,
+    "afterDedup": 86,
     "rejectedLinks": 0,
     "rejectedSecurity": 0,
     "belowScoreThreshold": 0,
@@ -13,12 +13,221 @@
   },
   "items": [
     {
-      "id": "first-things-serial-liar-serial-comma-c9b71d",
+      "id": "first-things-armenias-unbroken-courage-9abad9",
       "category": "read",
-      "title": "Serial Liar, Serial Comma",
+      "title": "Armenia’s Unbroken Courage",
+      "source": "First Things",
+      "date": "2026-10-12",
+      "url": "https://firstthings.com/armenias-unbroken-courage/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-12T05:00:29.396641+00:00"
+    },
+    {
+      "id": "first-things-be-wise-as-chameleons-ab9045",
+      "category": "read",
+      "title": "Be Wise as Chameleons",
+      "source": "First Things",
+      "date": "2026-10-09",
+      "url": "https://firstthings.com/be-wise-as-chameleons/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-12T05:00:29.396686+00:00"
+    },
+    {
+      "id": "first-things-betting-against-your-neighbor-10b336",
+      "category": "read",
+      "title": "Betting Against Your Neighbor",
+      "source": "First Things",
+      "date": "2026-10-09",
+      "url": "https://firstthings.com/betting-against-your-neighbor/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-12T05:00:29.396696+00:00"
+    },
+    {
+      "id": "first-things-the-second-death-of-charlie-kirk-3d089a",
+      "category": "read",
+      "title": "The Second Death of Charlie Kirk",
+      "source": "First Things",
+      "date": "2026-10-08",
+      "url": "https://firstthings.com/the-second-death-of-charlie-kirk/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-12T05:00:29.396711+00:00"
+    },
+    {
+      "id": "first-things-recovering-christian-humanism-b710dc",
+      "category": "read",
+      "title": "Recovering Christian Humanism",
+      "source": "First Things",
+      "date": "2026-10-08",
+      "url": "https://firstthings.com/recovering-christian-humanism/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-12T05:00:29.396726+00:00"
+    },
+    {
+      "id": "first-things-what-scholasticism-can-teach-us-about-ai-consciousness-a7cfd4",
+      "category": "read",
+      "title": "What Scholasticism Can Teach Us About AI Consciousness",
+      "source": "First Things",
+      "date": "2026-10-08",
+      "url": "https://firstthings.com/what-scholasticism-can-teach-us-about-ai-consciousness/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-12T05:00:29.396738+00:00"
+    },
+    {
+      "id": "first-things-the-new-sense-and-sensibility-lacks-austens-comic-vision-285eaf",
+      "category": "read",
+      "title": "The New Sense and Sensibility Lacks Austen’s Comic Vision",
+      "source": "First Things",
+      "date": "2026-10-08",
+      "url": "https://firstthings.com/the-new-sense-and-sensibility-lacks-austens-comic-vision/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-12T05:00:29.396751+00:00"
+    },
+    {
+      "id": "first-things-ai-doom-is-radically-uncertain-34203b",
+      "category": "read",
+      "title": "AI Doom Is Radically Uncertain",
+      "source": "First Things",
+      "date": "2026-10-07",
+      "url": "https://firstthings.com/ai-doom-is-radically-uncertain/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-12T05:00:29.396760+00:00"
+    },
+    {
+      "id": "first-things-reflections-on-a-diamond-jubilee-867843",
+      "category": "read",
+      "title": "Reflections on a Diamond Jubilee",
+      "source": "First Things",
+      "date": "2026-10-07",
+      "url": "https://firstthings.com/reflections-on-a-diamond-jubilee/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-12T05:00:29.396766+00:00"
+    },
+    {
+      "id": "first-things-slutcons-emotional-void-efd106",
+      "category": "read",
+      "title": "SlutCon’s Emotional Void",
+      "source": "First Things",
+      "date": "2026-10-06",
+      "url": "https://firstthings.com/slutcons-emotional-void/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-12T05:00:29.396773+00:00"
+    },
+    {
+      "id": "first-things-romancing-the-machine-aa1089",
+      "category": "read",
+      "title": "Romancing the Machine",
+      "source": "First Things",
+      "date": "2026-10-06",
+      "url": "https://firstthings.com/romancing-the-machine/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-12T05:00:29.396780+00:00"
+    },
+    {
+      "id": "first-things-the-boys-on-the-brink-b3594a",
+      "category": "read",
+      "title": "The Boys on the Brink",
       "source": "First Things",
       "date": "2026-10-05",
-      "url": "https://firstthings.com/serial-liar-serial-comma/",
+      "url": "https://firstthings.com/the-boys-on-brink/",
       "summary": "",
       "score": 6,
       "tags": [
@@ -29,281 +238,15 @@
       "ggiConnection": "",
       "validated": true,
       "flags": [],
-      "validatedAt": "2026-10-05T05:00:25.376866+00:00"
+      "validatedAt": "2026-10-12T05:00:29.396796+00:00"
     },
     {
-      "id": "first-things-who-killed-the-clancy-children-00ebcd",
+      "id": "the-pillar-museum-mix-up-the-true-story-behind-fulton-sheen-and-the-p-d74a5c",
       "category": "read",
-      "title": "Who Killed the Clancy Children?",
-      "source": "First Things",
-      "date": "2026-10-02",
-      "url": "https://firstthings.com/who-killed-the-clancy-children/",
-      "summary": "",
-      "score": 6,
-      "tags": [
-        "catholic-intellectual",
-        "culture",
-        "theology"
-      ],
-      "ggiConnection": "",
-      "validated": true,
-      "flags": [],
-      "validatedAt": "2026-10-05T05:00:25.376906+00:00"
-    },
-    {
-      "id": "first-things-shakespeare-under-stalins-shadow-31a383",
-      "category": "read",
-      "title": "Shakespeare Under Stalin’s Shadow",
-      "source": "First Things",
-      "date": "2026-10-02",
-      "url": "https://firstthings.com/shakespeare-under-stalins-shadow/",
-      "summary": "",
-      "score": 6,
-      "tags": [
-        "catholic-intellectual",
-        "culture",
-        "theology"
-      ],
-      "ggiConnection": "",
-      "validated": true,
-      "flags": [],
-      "validatedAt": "2026-10-05T05:00:25.376916+00:00"
-    },
-    {
-      "id": "first-things-vatican-ii-didnt-kneel-to-modernity-b4316e",
-      "category": "read",
-      "title": "Vatican II Didn’t Kneel to Modernity",
-      "source": "First Things",
-      "date": "2026-10-01",
-      "url": "https://firstthings.com/vatican-ii-didnt-kneel-to-modernity/",
-      "summary": "",
-      "score": 6,
-      "tags": [
-        "catholic-intellectual",
-        "culture",
-        "theology"
-      ],
-      "ggiConnection": "",
-      "validated": true,
-      "flags": [],
-      "validatedAt": "2026-10-05T05:00:25.376924+00:00"
-    },
-    {
-      "id": "first-things-roger-scrutons-eternal-youth-ef9363",
-      "category": "read",
-      "title": "Roger Scruton’s Eternal Youth",
-      "source": "First Things",
-      "date": "2026-10-01",
-      "url": "https://firstthings.com/roger-scrutons-eternal-youth/",
-      "summary": "",
-      "score": 6,
-      "tags": [
-        "catholic-intellectual",
-        "culture",
-        "theology"
-      ],
-      "ggiConnection": "",
-      "validated": true,
-      "flags": [],
-      "validatedAt": "2026-10-05T05:00:25.376931+00:00"
-    },
-    {
-      "id": "first-things-the-left-is-right-about-the-bible-37b836",
-      "category": "read",
-      "title": "The Left Is Right About the Bible",
-      "source": "First Things",
-      "date": "2026-10-01",
-      "url": "https://firstthings.com/the-left-is-right-about-the-bible/",
-      "summary": "",
-      "score": 6,
-      "tags": [
-        "catholic-intellectual",
-        "culture",
-        "theology"
-      ],
-      "ggiConnection": "",
-      "validated": true,
-      "flags": [],
-      "validatedAt": "2026-10-05T05:00:25.376937+00:00"
-    },
-    {
-      "id": "first-things-henry-hyde-a-pro-life-hero-390b6e",
-      "category": "read",
-      "title": "Henry Hyde, A Pro-Life Hero",
-      "source": "First Things",
-      "date": "2026-09-30",
-      "url": "https://firstthings.com/henry-hyde-a-pro-life-hero/",
-      "summary": "",
-      "score": 6,
-      "tags": [
-        "catholic-intellectual",
-        "culture",
-        "theology"
-      ],
-      "ggiConnection": "",
-      "validated": true,
-      "flags": [],
-      "validatedAt": "2026-10-05T05:00:25.376944+00:00"
-    },
-    {
-      "id": "first-things-two-spectacles-two-frances-71220b",
-      "category": "read",
-      "title": "Two Spectacles, Two Frances",
-      "source": "First Things",
-      "date": "2026-09-30",
-      "url": "https://firstthings.com/two-spectacles-two-frances/",
-      "summary": "",
-      "score": 6,
-      "tags": [
-        "catholic-intellectual",
-        "culture",
-        "theology"
-      ],
-      "ggiConnection": "",
-      "validated": true,
-      "flags": [],
-      "validatedAt": "2026-10-05T05:00:25.376951+00:00"
-    },
-    {
-      "id": "first-things-a-terrible-coarsening-450b65",
-      "category": "read",
-      "title": "A Terrible Coarsening",
-      "source": "First Things",
-      "date": "2026-09-30",
-      "url": "https://firstthings.com/a-terrible-coarsening/",
-      "summary": "",
-      "score": 6,
-      "tags": [
-        "catholic-intellectual",
-        "culture",
-        "theology"
-      ],
-      "ggiConnection": "",
-      "validated": true,
-      "flags": [],
-      "validatedAt": "2026-10-05T05:00:25.376957+00:00"
-    },
-    {
-      "id": "first-things-life-and-death-in-ai-b5f6c3",
-      "category": "read",
-      "title": "Life and Death in AI",
-      "source": "First Things",
-      "date": "2026-09-30",
-      "url": "https://firstthings.com/life-and-death-in-ai/",
-      "summary": "",
-      "score": 6,
-      "tags": [
-        "catholic-intellectual",
-        "culture",
-        "theology"
-      ],
-      "ggiConnection": "",
-      "validated": true,
-      "flags": [],
-      "validatedAt": "2026-10-05T05:00:25.376964+00:00"
-    },
-    {
-      "id": "first-things-no-right-to-erase-baptism-e1c91e",
-      "category": "read",
-      "title": "No Right to Erase Baptism",
-      "source": "First Things",
-      "date": "2026-09-29",
-      "url": "https://firstthings.com/no-right-to-erase-baptism/",
-      "summary": "",
-      "score": 6,
-      "tags": [
-        "catholic-intellectual",
-        "culture",
-        "theology"
-      ],
-      "ggiConnection": "",
-      "validated": true,
-      "flags": [],
-      "validatedAt": "2026-10-05T05:00:25.376970+00:00"
-    },
-    {
-      "id": "first-things-seven-years-alone-on-wildcat-mountain-e2785b",
-      "category": "read",
-      "title": "Seven Years Alone on Wildcat Mountain",
-      "source": "First Things",
-      "date": "2026-09-29",
-      "url": "https://firstthings.com/seven-years-alone-on-wildcat-mountain/",
-      "summary": "",
-      "score": 6,
-      "tags": [
-        "catholic-intellectual",
-        "culture",
-        "theology"
-      ],
-      "ggiConnection": "",
-      "validated": true,
-      "flags": [],
-      "validatedAt": "2026-10-05T05:00:25.376977+00:00"
-    },
-    {
-      "id": "first-things-lindsay-clancy-and-americas-canadian-future-f1a99b",
-      "category": "read",
-      "title": "Lindsay Clancy and America’s Canadian Future",
-      "source": "First Things",
-      "date": "2026-09-29",
-      "url": "https://firstthings.com/lindsay-clancy-and-americas-canadian-future/",
-      "summary": "",
-      "score": 6,
-      "tags": [
-        "catholic-intellectual",
-        "culture",
-        "theology"
-      ],
-      "ggiConnection": "",
-      "validated": true,
-      "flags": [],
-      "validatedAt": "2026-10-05T05:00:25.376983+00:00"
-    },
-    {
-      "id": "first-things-the-church-in-the-age-of-therapy-204971",
-      "category": "read",
-      "title": "The Church in the Age of Therapy",
-      "source": "First Things",
-      "date": "2026-09-28",
-      "url": "https://firstthings.com/the-church-in-the-age-of-therapy/",
-      "summary": "",
-      "score": 6,
-      "tags": [
-        "catholic-intellectual",
-        "culture",
-        "theology"
-      ],
-      "ggiConnection": "",
-      "validated": true,
-      "flags": [],
-      "validatedAt": "2026-10-05T05:00:25.376987+00:00"
-    },
-    {
-      "id": "first-things-americas-empty-confessionals-086f32",
-      "category": "read",
-      "title": "America’s Empty Confessionals",
-      "source": "First Things",
-      "date": "2026-09-28",
-      "url": "https://firstthings.com/americas-empty-confessionals/",
-      "summary": "",
-      "score": 6,
-      "tags": [
-        "catholic-intellectual",
-        "culture",
-        "theology"
-      ],
-      "ggiConnection": "",
-      "validated": true,
-      "flags": [],
-      "validatedAt": "2026-10-05T05:00:25.376991+00:00"
-    },
-    {
-      "id": "the-pillar-bonus-snakebit-e54759",
-      "category": "read",
-      "title": "Bonus: Snakebit",
+      "title": "Museum mix-up: The true story behind Fulton Sheen and the ‘Patronal Medal’",
       "source": "The Pillar",
-      "date": "2026-10-03",
-      "url": "https://www.pillarcatholic.com/p/bonus-snakebit",
+      "date": "2026-10-10",
+      "url": "https://www.pillarcatholic.com/p/museum-mix-up-the-true-story-behind",
       "summary": "",
       "score": 6,
       "tags": [
@@ -313,15 +256,15 @@
       "ggiConnection": "",
       "validated": true,
       "flags": [],
-      "validatedAt": "2026-10-05T05:00:25.376995+00:00"
+      "validatedAt": "2026-10-12T05:00:29.396803+00:00"
     },
     {
-      "id": "the-pillar-ep-280-backrooms-robots-and-the-nothingburger-84fa32",
+      "id": "the-pillar-bonus-choices-1e22b6",
       "category": "read",
-      "title": "Ep. 280: Backrooms, robots, and the nothingburger?",
+      "title": "Bonus: Choices",
       "source": "The Pillar",
-      "date": "2026-10-03",
-      "url": "https://www.pillarcatholic.com/p/ep-280-backrooms-robots-and-the-nothingburger",
+      "date": "2026-10-09",
+      "url": "https://www.pillarcatholic.com/p/bonus-choices",
       "summary": "",
       "score": 6,
       "tags": [
@@ -331,15 +274,15 @@
       "ggiConnection": "",
       "validated": true,
       "flags": [],
-      "validatedAt": "2026-10-05T05:00:25.376999+00:00"
+      "validatedAt": "2026-10-12T05:00:29.396809+00:00"
     },
     {
-      "id": "the-pillar-what-will-happen-at-the-vaticans-amoris-meeting-d49c99",
+      "id": "the-pillar-ep-281-a-man-without-a-country-and-a-conversation-without-062906",
       "category": "read",
-      "title": "What will happen at the Vatican’s ‘Amoris’ meeting?",
+      "title": "Ep. 281: A man without a country, and a conversation without winners and losers",
       "source": "The Pillar",
-      "date": "2026-10-02",
-      "url": "https://www.pillarcatholic.com/p/what-will-happen-at-the-vaticans",
+      "date": "2026-10-09",
+      "url": "https://www.pillarcatholic.com/p/ep-281-a-man-without-a-country-and",
       "summary": "",
       "score": 6,
       "tags": [
@@ -349,15 +292,15 @@
       "ggiConnection": "",
       "validated": true,
       "flags": [],
-      "validatedAt": "2026-10-05T05:00:25.377003+00:00"
+      "validatedAt": "2026-10-12T05:00:29.396816+00:00"
     },
     {
-      "id": "the-pillar-the-friday-pillar-post---october-2-2026-d71a4e",
+      "id": "the-pillar-the-friday-pillar-post---october-9-2026-dfa9be",
       "category": "read",
-      "title": "The Friday Pillar Post - October 2, 2026",
+      "title": "The Friday Pillar Post - October 9, 2026",
       "source": "The Pillar",
-      "date": "2026-10-02",
-      "url": "https://www.pillarcatholic.com/p/the-friday-pillar-post-october-2",
+      "date": "2026-10-09",
+      "url": "https://www.pillarcatholic.com/p/the-friday-pillar-post-october-9",
       "summary": "",
       "score": 6,
       "tags": [
@@ -367,15 +310,15 @@
       "ggiConnection": "",
       "validated": true,
       "flags": [],
-      "validatedAt": "2026-10-05T05:00:25.377007+00:00"
+      "validatedAt": "2026-10-12T05:00:29.396823+00:00"
     },
     {
-      "id": "the-pillar-who-we-are-sophias-pitch-and-made-in-china-b32501",
+      "id": "the-pillar-tagle-elected-dean-of-college-of-cardinals-4a4fe6",
       "category": "read",
-      "title": "Who we are, Sophia’s pitch, and made in China",
+      "title": "Tagle elected Dean of College of Cardinals",
       "source": "The Pillar",
-      "date": "2026-10-02",
-      "url": "https://www.pillarcatholic.com/p/who-we-are-sophias-pitch-and-made",
+      "date": "2026-10-09",
+      "url": "https://www.pillarcatholic.com/p/tagle-elected-dean-of-college-of",
       "summary": "",
       "score": 6,
       "tags": [
@@ -385,7 +328,61 @@
       "ggiConnection": "",
       "validated": true,
       "flags": [],
-      "validatedAt": "2026-10-05T05:00:25.377012+00:00"
+      "validatedAt": "2026-10-12T05:00:29.396829+00:00"
+    },
+    {
+      "id": "the-pillar-vatican-names-committee-for-amoris-meeting-report-aefd0c",
+      "category": "read",
+      "title": "Vatican names committee for ‘Amoris’ meeting report",
+      "source": "The Pillar",
+      "date": "2026-10-09",
+      "url": "https://www.pillarcatholic.com/p/vatican-names-committee-for-amoris",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-news",
+        "analysis"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-12T05:00:29.396836+00:00"
+    },
+    {
+      "id": "the-pillar-vatican-confidential-a-new-way-of-being-synod-and-merch-wa-ee1aa3",
+      "category": "read",
+      "title": "Vatican confidential, a new way of being synod, and merch wars",
+      "source": "The Pillar",
+      "date": "2026-10-09",
+      "url": "https://www.pillarcatholic.com/p/vatican-confidential-a-new-way-of",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-news",
+        "analysis"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-12T05:00:29.396845+00:00"
+    },
+    {
+      "id": "the-pillar-starting-seven-october-9-2026-b2cfd5",
+      "category": "read",
+      "title": "Starting Seven: October 9, 2026",
+      "source": "The Pillar",
+      "date": "2026-10-09",
+      "url": "https://www.pillarcatholic.com/p/starting-seven-october-9-2026",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-news",
+        "analysis"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-12T05:00:29.396851+00:00"
     }
   ]
 }
