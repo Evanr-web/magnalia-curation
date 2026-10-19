@@ -1,0 +1,391 @@
+{
+  "week": "2026-10-19",
+  "generated": "2026-10-19T05:00:24.818659+00:00",
+  "itemCount": 20,
+  "crawlStats": {
+    "sourcesChecked": 16,
+    "candidatesFound": 92,
+    "afterDedup": 92,
+    "rejectedLinks": 0,
+    "rejectedSecurity": 0,
+    "belowScoreThreshold": 0,
+    "finalItems": 20
+  },
+  "items": [
+    {
+      "id": "first-things-the-execution-will-not-be-televised-a9290b",
+      "category": "read",
+      "title": "The Execution Will Not Be Televised",
+      "source": "First Things",
+      "date": "2026-10-16",
+      "url": "https://firstthings.com/the-execution-will-not-be-televised/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-19T05:00:24.818374+00:00"
+    },
+    {
+      "id": "first-things-a-womans-east-of-eden-0beaad",
+      "category": "read",
+      "title": "A Woman’s East of Eden",
+      "source": "First Things",
+      "date": "2026-10-16",
+      "url": "https://firstthings.com/a-womans-east-of-eden/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-19T05:00:24.818413+00:00"
+    },
+    {
+      "id": "first-things-women-should-not-tolerate-porn-bed19c",
+      "category": "read",
+      "title": "Women Should Not Tolerate Porn",
+      "source": "First Things",
+      "date": "2026-10-16",
+      "url": "https://firstthings.com/women-should-not-tolerate-porn/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-19T05:00:24.818435+00:00"
+    },
+    {
+      "id": "first-things-new-founders-wanted-bc322d",
+      "category": "read",
+      "title": "New Founders Wanted",
+      "source": "First Things",
+      "date": "2026-10-16",
+      "url": "https://firstthings.com/new-founders-wanted/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-19T05:00:24.818443+00:00"
+    },
+    {
+      "id": "first-things-forget-odysseus-aeneas-is-the-true-american-hero-46cd9e",
+      "category": "read",
+      "title": "Forget Odysseus. Aeneas Is the True American Hero.",
+      "source": "First Things",
+      "date": "2026-10-15",
+      "url": "https://firstthings.com/no-place-like-home/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-19T05:00:24.818450+00:00"
+    },
+    {
+      "id": "first-things-foucaults-idol-of-nothingness-970b31",
+      "category": "read",
+      "title": "Foucault’s Idol of Nothingness",
+      "source": "First Things",
+      "date": "2026-10-15",
+      "url": "https://firstthings.com/foucaults-idol-of-nothingness/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-19T05:00:24.818469+00:00"
+    },
+    {
+      "id": "first-things-why-the-death-penalty-is-a-sore-point-for-papal-authority-d151a7",
+      "category": "read",
+      "title": "Why the Death Penalty Is a Sore Point for Papal Authority",
+      "source": "First Things",
+      "date": "2026-10-15",
+      "url": "https://firstthings.com/why-the-death-penalty-is-a-sore-point-for-papal-authority/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-19T05:00:24.818476+00:00"
+    },
+    {
+      "id": "first-things-candace-owens-and-the-sin-of-anti-semitism-e1a566",
+      "category": "read",
+      "title": "Candace Owens and the Sin of Anti-Semitism",
+      "source": "First Things",
+      "date": "2026-10-14",
+      "url": "https://firstthings.com/candace-owens-and-the-sin-of-anti-semitism/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-19T05:00:24.818484+00:00"
+    },
+    {
+      "id": "first-things-meet-the-post-religious-right-06bc1a",
+      "category": "read",
+      "title": "Meet the Post-Religious Right",
+      "source": "First Things",
+      "date": "2026-10-14",
+      "url": "https://firstthings.com/meet-the-post-religious-right/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-19T05:00:24.818493+00:00"
+    },
+    {
+      "id": "first-things-how-swedens-immigrant-vote-toppled-the-right-3c6265",
+      "category": "read",
+      "title": "How Sweden’s Immigrant Vote Toppled the Right",
+      "source": "First Things",
+      "date": "2026-10-13",
+      "url": "https://firstthings.com/how-swedens-immigrant-vote-toppled-the-right/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-19T05:00:24.818500+00:00"
+    },
+    {
+      "id": "first-things-the-last-statesmen-ff1db2",
+      "category": "read",
+      "title": "The Last Statesmen?",
+      "source": "First Things",
+      "date": "2026-10-13",
+      "url": "https://firstthings.com/the-last-statesmen/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-19T05:00:24.818506+00:00"
+    },
+    {
+      "id": "first-things-job-and-her-55b5fa",
+      "category": "read",
+      "title": "Job and Her",
+      "source": "First Things",
+      "date": "2026-10-13",
+      "url": "https://firstthings.com/job-and-her/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-19T05:00:24.818512+00:00"
+    },
+    {
+      "id": "first-things-the-cold-beauty-of-jan-morris-3aafa0",
+      "category": "read",
+      "title": "The Cold Beauty of Jan Morris",
+      "source": "First Things",
+      "date": "2026-10-13",
+      "url": "https://firstthings.com/a-cold-beauty/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-19T05:00:24.818519+00:00"
+    },
+    {
+      "id": "first-things-the-zone-of-commitment-27b62c",
+      "category": "read",
+      "title": "The Zone of Commitment",
+      "source": "First Things",
+      "date": "2026-10-13",
+      "url": "https://firstthings.com/the-zone-of-commitment/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-19T05:00:24.818525+00:00"
+    },
+    {
+      "id": "first-things-the-chariot-burials-0ecbc0",
+      "category": "read",
+      "title": "The Chariot Burials",
+      "source": "First Things",
+      "date": "2026-10-13",
+      "url": "https://firstthings.com/the-chariot-burials/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-19T05:00:24.818533+00:00"
+    },
+    {
+      "id": "the-pillar-bonus-a-podcast-about-a-podcast-99ccd5",
+      "category": "read",
+      "title": "Bonus: A podcast about a podcast",
+      "source": "The Pillar",
+      "date": "2026-10-18",
+      "url": "https://www.pillarcatholic.com/p/bonus-a-podcast-about-a-podcast",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-news",
+        "analysis"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-19T05:00:24.818544+00:00"
+    },
+    {
+      "id": "the-pillar-ep-282-pope-leos-cancer-and-the-last-word-on-amoris-d5d2b9",
+      "category": "read",
+      "title": "Ep. 282: Pope Leo’s cancer, and the last word on Amoris?",
+      "source": "The Pillar",
+      "date": "2026-10-18",
+      "url": "https://www.pillarcatholic.com/p/ep-282-pope-leos-cancer-and-the-last",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-news",
+        "analysis"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-19T05:00:24.818550+00:00"
+    },
+    {
+      "id": "the-pillar-how-the-amoris-meeting-went-according-to-its-participants-8e5ab2",
+      "category": "read",
+      "title": "How the ‘Amoris’ meeting went, according to its participants",
+      "source": "The Pillar",
+      "date": "2026-10-16",
+      "url": "https://www.pillarcatholic.com/p/how-the-amoris-meeting-went-according",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-news",
+        "analysis"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-19T05:00:24.818558+00:00"
+    },
+    {
+      "id": "the-pillar-concern-for-humanity-relationships-drives-swiss-religious-l-f0c454",
+      "category": "read",
+      "title": "Concern for humanity, relationships drives Swiss religious leaders’ AI guidelines",
+      "source": "The Pillar",
+      "date": "2026-10-16",
+      "url": "https://www.pillarcatholic.com/p/concern-for-humanity-relationships",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-news",
+        "analysis"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-19T05:00:24.818570+00:00"
+    },
+    {
+      "id": "the-pillar-closing-arguments-heard-at-polish-bishops-landmark-trial-a6a1a1",
+      "category": "read",
+      "title": "Closing arguments heard at Polish bishop’s landmark trial",
+      "source": "The Pillar",
+      "date": "2026-10-16",
+      "url": "https://www.pillarcatholic.com/p/closing-arguments-heard-at-polish",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-news",
+        "analysis"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-19T05:00:24.818578+00:00"
+    }
+  ]
+}
