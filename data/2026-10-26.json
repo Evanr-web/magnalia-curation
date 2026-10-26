@@ -1,0 +1,391 @@
+{
+  "week": "2026-10-26",
+  "generated": "2026-10-26T05:00:21.282922+00:00",
+  "itemCount": 20,
+  "crawlStats": {
+    "sourcesChecked": 16,
+    "candidatesFound": 91,
+    "afterDedup": 91,
+    "rejectedLinks": 0,
+    "rejectedSecurity": 0,
+    "belowScoreThreshold": 0,
+    "finalItems": 20
+  },
+  "items": [
+    {
+      "id": "first-things-we-can-build-things-b759ec",
+      "category": "read",
+      "title": "We Can Build Things",
+      "source": "First Things",
+      "date": "2026-10-26",
+      "url": "https://firstthings.com/we-can-build-things/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-26T05:00:21.282610+00:00"
+    },
+    {
+      "id": "first-things-the-trouble-with-elliotgate-9d77ea",
+      "category": "read",
+      "title": "The Trouble with Elliotgate",
+      "source": "First Things",
+      "date": "2026-10-23",
+      "url": "https://firstthings.com/the-trouble-with-elliotgate/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-26T05:00:21.282676+00:00"
+    },
+    {
+      "id": "first-things-prime-rib-of-unicorn-fabfa1",
+      "category": "read",
+      "title": "Prime Rib of Unicorn",
+      "source": "First Things",
+      "date": "2026-10-23",
+      "url": "https://firstthings.com/prime-rib-of-unicorn/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-26T05:00:21.282697+00:00"
+    },
+    {
+      "id": "first-things-a-culture-of-parricide-a3a72b",
+      "category": "read",
+      "title": "A Culture of Parricide",
+      "source": "First Things",
+      "date": "2026-10-23",
+      "url": "https://firstthings.com/a-culture-of-parricide/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-26T05:00:21.282707+00:00"
+    },
+    {
+      "id": "first-things-three-tiktoks-in-a-trench-coat-cb4bdc",
+      "category": "read",
+      "title": "Three TikToks in a Trench Coat",
+      "source": "First Things",
+      "date": "2026-10-22",
+      "url": "https://firstthings.com/three-tiktoks-in-a-trench-coat/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-26T05:00:21.282721+00:00"
+    },
+    {
+      "id": "first-things-smashing-the-images-b976aa",
+      "category": "read",
+      "title": "Smashing the Images",
+      "source": "First Things",
+      "date": "2026-10-22",
+      "url": "https://firstthings.com/smashing-the-images/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-26T05:00:21.282728+00:00"
+    },
+    {
+      "id": "first-things-the-real-world-of-francisco-de-zurbarán-4fae0c",
+      "category": "read",
+      "title": "The Real World of Francisco de Zurbarán",
+      "source": "First Things",
+      "date": "2026-10-22",
+      "url": "https://firstthings.com/the-real-world-of-francisco-de-zurbaran/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-26T05:00:21.282735+00:00"
+    },
+    {
+      "id": "first-things-souls-at-stake-8fa307",
+      "category": "read",
+      "title": "Souls at Stake",
+      "source": "First Things",
+      "date": "2026-10-21",
+      "url": "https://firstthings.com/souls-at-stake/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-26T05:00:21.282743+00:00"
+    },
+    {
+      "id": "first-things-the-cold-beauty-of-jan-morris-3aafa0",
+      "category": "read",
+      "title": "The Cold Beauty of Jan Morris",
+      "source": "First Things",
+      "date": "2026-10-21",
+      "url": "https://firstthings.com/a-cold-beauty/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-26T05:00:21.282750+00:00"
+    },
+    {
+      "id": "first-things-ai-and-evangelization-64c888",
+      "category": "read",
+      "title": "AI and Evangelization",
+      "source": "First Things",
+      "date": "2026-10-21",
+      "url": "https://firstthings.com/ai-and-evangelization/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-26T05:00:21.282757+00:00"
+    },
+    {
+      "id": "first-things-lgbtq-is-far-from-dead-a99786",
+      "category": "read",
+      "title": "LGBTQ Is Far from Dead",
+      "source": "First Things",
+      "date": "2026-10-20",
+      "url": "https://firstthings.com/lgbtq-is-far-from-dead/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-26T05:00:21.282765+00:00"
+    },
+    {
+      "id": "first-things-a-muslim-answer-to-muslim-immigration-7c6177",
+      "category": "read",
+      "title": "A Muslim Answer to Muslim Immigration",
+      "source": "First Things",
+      "date": "2026-10-20",
+      "url": "https://firstthings.com/a-muslim-answer-to-muslim-immigration/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-26T05:00:21.282771+00:00"
+    },
+    {
+      "id": "first-things-virginias-ballot-puts-caesar-over-god-5d9f0f",
+      "category": "read",
+      "title": "Virginia’s Ballot Puts Caesar Over God",
+      "source": "First Things",
+      "date": "2026-10-20",
+      "url": "https://firstthings.com/virginias-ballot-puts-caesar-over-god/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-26T05:00:21.282777+00:00"
+    },
+    {
+      "id": "first-things-the-survival-of-evangelicalism-babd8c",
+      "category": "read",
+      "title": "The Survival of Evangelicalism",
+      "source": "First Things",
+      "date": "2026-10-19",
+      "url": "https://firstthings.com/the-survival-of-evangelicalism/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-26T05:00:21.282782+00:00"
+    },
+    {
+      "id": "first-things-britains-porn-ban-exposes-the-lie-of-sexual-liberation-d01426",
+      "category": "read",
+      "title": "Britain’s Porn Ban Exposes the Lie of Sexual Liberation",
+      "source": "First Things",
+      "date": "2026-10-19",
+      "url": "https://firstthings.com/britains-porn-ban-exposes-the-lie-of-sexual-liberation/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-26T05:00:21.282790+00:00"
+    },
+    {
+      "id": "the-pillar-chaldean-synod-backs-new-procedure-for-electing-bishops-5da9ce",
+      "category": "read",
+      "title": "Chaldean synod backs new procedure for electing bishops",
+      "source": "The Pillar",
+      "date": "2026-10-24",
+      "url": "https://www.pillarcatholic.com/p/chaldean-synod-backs-new-procedure",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-news",
+        "analysis"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-26T05:00:21.282797+00:00"
+    },
+    {
+      "id": "the-pillar-knoxville-bishop-not-appropriate-to-add-prayers-to-mass-e47381",
+      "category": "read",
+      "title": "Knoxville bishop: ‘Not appropriate’ to add prayers to Mass",
+      "source": "The Pillar",
+      "date": "2026-10-24",
+      "url": "https://www.pillarcatholic.com/p/knoxville-bishop-not-appropriate",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-news",
+        "analysis"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-26T05:00:21.282803+00:00"
+    },
+    {
+      "id": "the-pillar-bonus-the-gentlemanly-thing-to-do-e9b7fe",
+      "category": "read",
+      "title": "Bonus: The gentlemanly thing to do",
+      "source": "The Pillar",
+      "date": "2026-10-24",
+      "url": "https://www.pillarcatholic.com/p/bonus-the-gentlemanly-thing-to-do",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-news",
+        "analysis"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-26T05:00:21.282809+00:00"
+    },
+    {
+      "id": "the-pillar-ep-283-fr-justin-fulton-sheen-and-the-motor-city-1f77b1",
+      "category": "read",
+      "title": "Ep. 283: Fr. Justin Fulton Sheen and the Motor City",
+      "source": "The Pillar",
+      "date": "2026-10-24",
+      "url": "https://www.pillarcatholic.com/p/ep-283-fr-justin-fulton-sheen-and",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-news",
+        "analysis"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-26T05:00:21.282816+00:00"
+    },
+    {
+      "id": "the-pillar-brazilian-bishops-say-right-wing-candidate-threatens-democr-c253a2",
+      "category": "read",
+      "title": "Brazilian bishops say right-wing candidate ‘threatens democracy’",
+      "source": "The Pillar",
+      "date": "2026-10-23",
+      "url": "https://www.pillarcatholic.com/p/group-of-brazilian-bishops-say-right",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-news",
+        "analysis"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-26T05:00:21.282823+00:00"
+    }
+  ]
+}

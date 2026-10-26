@@ -1,11 +1,11 @@
 {
-  "week": "2026-10-19",
-  "generated": "2026-10-19T05:00:24.818659+00:00",
+  "week": "2026-10-26",
+  "generated": "2026-10-26T05:00:21.282922+00:00",
   "itemCount": 20,
   "crawlStats": {
     "sourcesChecked": 16,
-    "candidatesFound": 92,
-    "afterDedup": 92,
+    "candidatesFound": 91,
+    "afterDedup": 91,
     "rejectedLinks": 0,
     "rejectedSecurity": 0,
     "belowScoreThreshold": 0,
@@ -13,12 +13,12 @@
   },
   "items": [
     {
-      "id": "first-things-the-execution-will-not-be-televised-a9290b",
+      "id": "first-things-we-can-build-things-b759ec",
       "category": "read",
-      "title": "The Execution Will Not Be Televised",
+      "title": "We Can Build Things",
       "source": "First Things",
-      "date": "2026-10-16",
-      "url": "https://firstthings.com/the-execution-will-not-be-televised/",
+      "date": "2026-10-26",
+      "url": "https://firstthings.com/we-can-build-things/",
       "summary": "",
       "score": 6,
       "tags": [
@@ -29,15 +29,15 @@
       "ggiConnection": "",
       "validated": true,
       "flags": [],
-      "validatedAt": "2026-10-19T05:00:24.818374+00:00"
+      "validatedAt": "2026-10-26T05:00:21.282610+00:00"
     },
     {
-      "id": "first-things-a-womans-east-of-eden-0beaad",
+      "id": "first-things-the-trouble-with-elliotgate-9d77ea",
       "category": "read",
-      "title": "A Woman’s East of Eden",
+      "title": "The Trouble with Elliotgate",
       "source": "First Things",
-      "date": "2026-10-16",
-      "url": "https://firstthings.com/a-womans-east-of-eden/",
+      "date": "2026-10-23",
+      "url": "https://firstthings.com/the-trouble-with-elliotgate/",
       "summary": "",
       "score": 6,
       "tags": [
@@ -48,15 +48,15 @@
       "ggiConnection": "",
       "validated": true,
       "flags": [],
-      "validatedAt": "2026-10-19T05:00:24.818413+00:00"
+      "validatedAt": "2026-10-26T05:00:21.282676+00:00"
     },
     {
-      "id": "first-things-women-should-not-tolerate-porn-bed19c",
+      "id": "first-things-prime-rib-of-unicorn-fabfa1",
       "category": "read",
-      "title": "Women Should Not Tolerate Porn",
+      "title": "Prime Rib of Unicorn",
       "source": "First Things",
-      "date": "2026-10-16",
-      "url": "https://firstthings.com/women-should-not-tolerate-porn/",
+      "date": "2026-10-23",
+      "url": "https://firstthings.com/prime-rib-of-unicorn/",
       "summary": "",
       "score": 6,
       "tags": [
@@ -67,15 +67,15 @@
       "ggiConnection": "",
       "validated": true,
       "flags": [],
-      "validatedAt": "2026-10-19T05:00:24.818435+00:00"
+      "validatedAt": "2026-10-26T05:00:21.282697+00:00"
     },
     {
-      "id": "first-things-new-founders-wanted-bc322d",
+      "id": "first-things-a-culture-of-parricide-a3a72b",
       "category": "read",
-      "title": "New Founders Wanted",
+      "title": "A Culture of Parricide",
       "source": "First Things",
-      "date": "2026-10-16",
-      "url": "https://firstthings.com/new-founders-wanted/",
+      "date": "2026-10-23",
+      "url": "https://firstthings.com/a-culture-of-parricide/",
       "summary": "",
       "score": 6,
       "tags": [
@@ -86,15 +86,15 @@
       "ggiConnection": "",
       "validated": true,
       "flags": [],
-      "validatedAt": "2026-10-19T05:00:24.818443+00:00"
+      "validatedAt": "2026-10-26T05:00:21.282707+00:00"
     },
     {
-      "id": "first-things-forget-odysseus-aeneas-is-the-true-american-hero-46cd9e",
+      "id": "first-things-three-tiktoks-in-a-trench-coat-cb4bdc",
       "category": "read",
-      "title": "Forget Odysseus. Aeneas Is the True American Hero.",
+      "title": "Three TikToks in a Trench Coat",
       "source": "First Things",
-      "date": "2026-10-15",
-      "url": "https://firstthings.com/no-place-like-home/",
+      "date": "2026-10-22",
+      "url": "https://firstthings.com/three-tiktoks-in-a-trench-coat/",
       "summary": "",
       "score": 6,
       "tags": [
@@ -105,15 +105,15 @@
       "ggiConnection": "",
       "validated": true,
       "flags": [],
-      "validatedAt": "2026-10-19T05:00:24.818450+00:00"
+      "validatedAt": "2026-10-26T05:00:21.282721+00:00"
     },
     {
-      "id": "first-things-foucaults-idol-of-nothingness-970b31",
+      "id": "first-things-smashing-the-images-b976aa",
       "category": "read",
-      "title": "Foucault’s Idol of Nothingness",
+      "title": "Smashing the Images",
       "source": "First Things",
-      "date": "2026-10-15",
-      "url": "https://firstthings.com/foucaults-idol-of-nothingness/",
+      "date": "2026-10-22",
+      "url": "https://firstthings.com/smashing-the-images/",
       "summary": "",
       "score": 6,
       "tags": [
@@ -124,15 +124,15 @@
       "ggiConnection": "",
       "validated": true,
       "flags": [],
-      "validatedAt": "2026-10-19T05:00:24.818469+00:00"
+      "validatedAt": "2026-10-26T05:00:21.282728+00:00"
     },
     {
-      "id": "first-things-why-the-death-penalty-is-a-sore-point-for-papal-authority-d151a7",
+      "id": "first-things-the-real-world-of-francisco-de-zurbarán-4fae0c",
       "category": "read",
-      "title": "Why the Death Penalty Is a Sore Point for Papal Authority",
+      "title": "The Real World of Francisco de Zurbarán",
       "source": "First Things",
-      "date": "2026-10-15",
-      "url": "https://firstthings.com/why-the-death-penalty-is-a-sore-point-for-papal-authority/",
+      "date": "2026-10-22",
+      "url": "https://firstthings.com/the-real-world-of-francisco-de-zurbaran/",
       "summary": "",
       "score": 6,
       "tags": [
@@ -143,15 +143,15 @@
       "ggiConnection": "",
       "validated": true,
       "flags": [],
-      "validatedAt": "2026-10-19T05:00:24.818476+00:00"
+      "validatedAt": "2026-10-26T05:00:21.282735+00:00"
     },
     {
-      "id": "first-things-candace-owens-and-the-sin-of-anti-semitism-e1a566",
+      "id": "first-things-souls-at-stake-8fa307",
       "category": "read",
-      "title": "Candace Owens and the Sin of Anti-Semitism",
+      "title": "Souls at Stake",
       "source": "First Things",
-      "date": "2026-10-14",
-      "url": "https://firstthings.com/candace-owens-and-the-sin-of-anti-semitism/",
+      "date": "2026-10-21",
+      "url": "https://firstthings.com/souls-at-stake/",
       "summary": "",
       "score": 6,
       "tags": [
@@ -162,90 +162,14 @@
       "ggiConnection": "",
       "validated": true,
       "flags": [],
-      "validatedAt": "2026-10-19T05:00:24.818484+00:00"
-    },
-    {
-      "id": "first-things-meet-the-post-religious-right-06bc1a",
-      "category": "read",
-      "title": "Meet the Post-Religious Right",
-      "source": "First Things",
-      "date": "2026-10-14",
-      "url": "https://firstthings.com/meet-the-post-religious-right/",
-      "summary": "",
-      "score": 6,
-      "tags": [
-        "catholic-intellectual",
-        "culture",
-        "theology"
-      ],
-      "ggiConnection": "",
-      "validated": true,
-      "flags": [],
-      "validatedAt": "2026-10-19T05:00:24.818493+00:00"
-    },
-    {
-      "id": "first-things-how-swedens-immigrant-vote-toppled-the-right-3c6265",
-      "category": "read",
-      "title": "How Sweden’s Immigrant Vote Toppled the Right",
-      "source": "First Things",
-      "date": "2026-10-13",
-      "url": "https://firstthings.com/how-swedens-immigrant-vote-toppled-the-right/",
-      "summary": "",
-      "score": 6,
-      "tags": [
-        "catholic-intellectual",
-        "culture",
-        "theology"
-      ],
-      "ggiConnection": "",
-      "validated": true,
-      "flags": [],
-      "validatedAt": "2026-10-19T05:00:24.818500+00:00"
-    },
-    {
-      "id": "first-things-the-last-statesmen-ff1db2",
-      "category": "read",
-      "title": "The Last Statesmen?",
-      "source": "First Things",
-      "date": "2026-10-13",
-      "url": "https://firstthings.com/the-last-statesmen/",
-      "summary": "",
-      "score": 6,
-      "tags": [
-        "catholic-intellectual",
-        "culture",
-        "theology"
-      ],
-      "ggiConnection": "",
-      "validated": true,
-      "flags": [],
-      "validatedAt": "2026-10-19T05:00:24.818506+00:00"
-    },
-    {
-      "id": "first-things-job-and-her-55b5fa",
-      "category": "read",
-      "title": "Job and Her",
-      "source": "First Things",
-      "date": "2026-10-13",
-      "url": "https://firstthings.com/job-and-her/",
-      "summary": "",
-      "score": 6,
-      "tags": [
-        "catholic-intellectual",
-        "culture",
-        "theology"
-      ],
-      "ggiConnection": "",
-      "validated": true,
-      "flags": [],
-      "validatedAt": "2026-10-19T05:00:24.818512+00:00"
+      "validatedAt": "2026-10-26T05:00:21.282743+00:00"
     },
     {
       "id": "first-things-the-cold-beauty-of-jan-morris-3aafa0",
       "category": "read",
       "title": "The Cold Beauty of Jan Morris",
       "source": "First Things",
-      "date": "2026-10-13",
+      "date": "2026-10-21",
       "url": "https://firstthings.com/a-cold-beauty/",
       "summary": "",
       "score": 6,
@@ -257,15 +181,15 @@
       "ggiConnection": "",
       "validated": true,
       "flags": [],
-      "validatedAt": "2026-10-19T05:00:24.818519+00:00"
+      "validatedAt": "2026-10-26T05:00:21.282750+00:00"
     },
     {
-      "id": "first-things-the-zone-of-commitment-27b62c",
+      "id": "first-things-ai-and-evangelization-64c888",
       "category": "read",
-      "title": "The Zone of Commitment",
+      "title": "AI and Evangelization",
       "source": "First Things",
-      "date": "2026-10-13",
-      "url": "https://firstthings.com/the-zone-of-commitment/",
+      "date": "2026-10-21",
+      "url": "https://firstthings.com/ai-and-evangelization/",
       "summary": "",
       "score": 6,
       "tags": [
@@ -276,15 +200,15 @@
       "ggiConnection": "",
       "validated": true,
       "flags": [],
-      "validatedAt": "2026-10-19T05:00:24.818525+00:00"
+      "validatedAt": "2026-10-26T05:00:21.282757+00:00"
     },
     {
-      "id": "first-things-the-chariot-burials-0ecbc0",
+      "id": "first-things-lgbtq-is-far-from-dead-a99786",
       "category": "read",
-      "title": "The Chariot Burials",
+      "title": "LGBTQ Is Far from Dead",
       "source": "First Things",
-      "date": "2026-10-13",
-      "url": "https://firstthings.com/the-chariot-burials/",
+      "date": "2026-10-20",
+      "url": "https://firstthings.com/lgbtq-is-far-from-dead/",
       "summary": "",
       "score": 6,
       "tags": [
@@ -295,15 +219,91 @@
       "ggiConnection": "",
       "validated": true,
       "flags": [],
-      "validatedAt": "2026-10-19T05:00:24.818533+00:00"
+      "validatedAt": "2026-10-26T05:00:21.282765+00:00"
     },
     {
-      "id": "the-pillar-bonus-a-podcast-about-a-podcast-99ccd5",
+      "id": "first-things-a-muslim-answer-to-muslim-immigration-7c6177",
       "category": "read",
-      "title": "Bonus: A podcast about a podcast",
+      "title": "A Muslim Answer to Muslim Immigration",
+      "source": "First Things",
+      "date": "2026-10-20",
+      "url": "https://firstthings.com/a-muslim-answer-to-muslim-immigration/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-26T05:00:21.282771+00:00"
+    },
+    {
+      "id": "first-things-virginias-ballot-puts-caesar-over-god-5d9f0f",
+      "category": "read",
+      "title": "Virginia’s Ballot Puts Caesar Over God",
+      "source": "First Things",
+      "date": "2026-10-20",
+      "url": "https://firstthings.com/virginias-ballot-puts-caesar-over-god/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-26T05:00:21.282777+00:00"
+    },
+    {
+      "id": "first-things-the-survival-of-evangelicalism-babd8c",
+      "category": "read",
+      "title": "The Survival of Evangelicalism",
+      "source": "First Things",
+      "date": "2026-10-19",
+      "url": "https://firstthings.com/the-survival-of-evangelicalism/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-26T05:00:21.282782+00:00"
+    },
+    {
+      "id": "first-things-britains-porn-ban-exposes-the-lie-of-sexual-liberation-d01426",
+      "category": "read",
+      "title": "Britain’s Porn Ban Exposes the Lie of Sexual Liberation",
+      "source": "First Things",
+      "date": "2026-10-19",
+      "url": "https://firstthings.com/britains-porn-ban-exposes-the-lie-of-sexual-liberation/",
+      "summary": "",
+      "score": 6,
+      "tags": [
+        "catholic-intellectual",
+        "culture",
+        "theology"
+      ],
+      "ggiConnection": "",
+      "validated": true,
+      "flags": [],
+      "validatedAt": "2026-10-26T05:00:21.282790+00:00"
+    },
+    {
+      "id": "the-pillar-chaldean-synod-backs-new-procedure-for-electing-bishops-5da9ce",
+      "category": "read",
+      "title": "Chaldean synod backs new procedure for electing bishops",
       "source": "The Pillar",
-      "date": "2026-10-18",
-      "url": "https://www.pillarcatholic.com/p/bonus-a-podcast-about-a-podcast",
+      "date": "2026-10-24",
+      "url": "https://www.pillarcatholic.com/p/chaldean-synod-backs-new-procedure",
       "summary": "",
       "score": 6,
       "tags": [
@@ -313,15 +313,15 @@
       "ggiConnection": "",
       "validated": true,
       "flags": [],
-      "validatedAt": "2026-10-19T05:00:24.818544+00:00"
+      "validatedAt": "2026-10-26T05:00:21.282797+00:00"
     },
     {
-      "id": "the-pillar-ep-282-pope-leos-cancer-and-the-last-word-on-amoris-d5d2b9",
+      "id": "the-pillar-knoxville-bishop-not-appropriate-to-add-prayers-to-mass-e47381",
       "category": "read",
-      "title": "Ep. 282: Pope Leo’s cancer, and the last word on Amoris?",
+      "title": "Knoxville bishop: ‘Not appropriate’ to add prayers to Mass",
       "source": "The Pillar",
-      "date": "2026-10-18",
-      "url": "https://www.pillarcatholic.com/p/ep-282-pope-leos-cancer-and-the-last",
+      "date": "2026-10-24",
+      "url": "https://www.pillarcatholic.com/p/knoxville-bishop-not-appropriate",
       "summary": "",
       "score": 6,
       "tags": [
@@ -331,15 +331,15 @@
       "ggiConnection": "",
       "validated": true,
       "flags": [],
-      "validatedAt": "2026-10-19T05:00:24.818550+00:00"
+      "validatedAt": "2026-10-26T05:00:21.282803+00:00"
     },
     {
-      "id": "the-pillar-how-the-amoris-meeting-went-according-to-its-participants-8e5ab2",
+      "id": "the-pillar-bonus-the-gentlemanly-thing-to-do-e9b7fe",
       "category": "read",
-      "title": "How the ‘Amoris’ meeting went, according to its participants",
+      "title": "Bonus: The gentlemanly thing to do",
       "source": "The Pillar",
-      "date": "2026-10-16",
-      "url": "https://www.pillarcatholic.com/p/how-the-amoris-meeting-went-according",
+      "date": "2026-10-24",
+      "url": "https://www.pillarcatholic.com/p/bonus-the-gentlemanly-thing-to-do",
       "summary": "",
       "score": 6,
       "tags": [
@@ -349,15 +349,15 @@
       "ggiConnection": "",
       "validated": true,
       "flags": [],
-      "validatedAt": "2026-10-19T05:00:24.818558+00:00"
+      "validatedAt": "2026-10-26T05:00:21.282809+00:00"
     },
     {
-      "id": "the-pillar-concern-for-humanity-relationships-drives-swiss-religious-l-f0c454",
+      "id": "the-pillar-ep-283-fr-justin-fulton-sheen-and-the-motor-city-1f77b1",
       "category": "read",
-      "title": "Concern for humanity, relationships drives Swiss religious leaders’ AI guidelines",
+      "title": "Ep. 283: Fr. Justin Fulton Sheen and the Motor City",
       "source": "The Pillar",
-      "date": "2026-10-16",
-      "url": "https://www.pillarcatholic.com/p/concern-for-humanity-relationships",
+      "date": "2026-10-24",
+      "url": "https://www.pillarcatholic.com/p/ep-283-fr-justin-fulton-sheen-and",
       "summary": "",
       "score": 6,
       "tags": [
@@ -367,15 +367,15 @@
       "ggiConnection": "",
       "validated": true,
       "flags": [],
-      "validatedAt": "2026-10-19T05:00:24.818570+00:00"
+      "validatedAt": "2026-10-26T05:00:21.282816+00:00"
     },
     {
-      "id": "the-pillar-closing-arguments-heard-at-polish-bishops-landmark-trial-a6a1a1",
+      "id": "the-pillar-brazilian-bishops-say-right-wing-candidate-threatens-democr-c253a2",
       "category": "read",
-      "title": "Closing arguments heard at Polish bishop’s landmark trial",
+      "title": "Brazilian bishops say right-wing candidate ‘threatens democracy’",
       "source": "The Pillar",
-      "date": "2026-10-16",
-      "url": "https://www.pillarcatholic.com/p/closing-arguments-heard-at-polish",
+      "date": "2026-10-23",
+      "url": "https://www.pillarcatholic.com/p/group-of-brazilian-bishops-say-right",
       "summary": "",
       "score": 6,
       "tags": [
@@ -385,7 +385,7 @@
       "ggiConnection": "",
       "validated": true,
       "flags": [],
-      "validatedAt": "2026-10-19T05:00:24.818578+00:00"
+      "validatedAt": "2026-10-26T05:00:21.282823+00:00"
     }
   ]
 }
